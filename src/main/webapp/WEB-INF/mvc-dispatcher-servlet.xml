@@ -16,13 +16,13 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <!--<bean id="restTemplate" class="org.springframework.web.client.RestTemplate">-->
-        <!--<property name="messageConverters">-->
-            <!--<list>-->
-                <!--<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>-->
-            <!--</list>-->
-        <!--</property>-->
-    <!--</bean>-->
+    <bean id="restTemplate" class="org.springframework.web.client.RestTemplate">
+        <property name="messageConverters">
+            <list>
+                <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
+            </list>
+        </property>
+    </bean>
     <!--<mvc:resources mapping="/resources/**" location="/resources/" />-->
 
     <!--<mvc:annotation-driven />-->

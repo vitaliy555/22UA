@@ -6,6 +6,8 @@ import org.springframework.http.HttpMethod;
 /**
  * interface cmd
  */
-public interface Cmd {
+public interface Cmd<T> {
     HttpMethod getMethod();
+    String getUrl();
+    Class<T> getResponseType();
 }

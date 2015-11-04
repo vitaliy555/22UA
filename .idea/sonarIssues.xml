@@ -3,12 +3,17 @@
   <component name="issues">
     <option name="index">
       <map>
-        <entry key="$PROJECT_DIR$/pom.xml">
+        <entry key="/a.dummy">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/launch/Main.java">
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/Main.java">
           <value>
             <set />
           </value>
@@ -23,42 +28,42 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/BookingStantionCmd.java">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/Cmd.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/RestClient.java">
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/impl/BookingStantionCmd.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/connector/cmd/Rest.java">
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/impl/BookingStationCmd.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/connector/cmd/RestClient.java">
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/convertor/BookingStation.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/controllers/Hello.java">
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/convertor/BookingStationMessageConverter.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dto/BookingStationAnswer.java">
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/convertor/booking/BookingStationMessageConverter.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/resources/context.xml">
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/convertor/booking/dto/BookingStationAnswer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/enity/Station.java">
           <value>
             <set />
           </value>
@@ -68,47 +73,7 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/hello.jsp">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/target/bin/webapp.bat">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ctco-mcom/cq/marks-dto/src/main/java/com/marks/hybris/dto/RegisterData.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ctco-mcom/cq/marks-rest/src/main/java/com/marks/rest/customer/CustomerResource.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ctco-mcom/cq/marks-view/src/main/content/jcr_root/apps/marks/components/my-account/mac-email/clientlibs/js/dust-templates.js">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ctco-mcom/cq/marks-view/src/main/content/jcr_root/apps/marks/components/my-account/mac-email/mac-email.dust">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ctco-mcom/cq/marks-view/src/main/content/jcr_root/apps/marks/i18n/en.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../ctco-mcom/cq/marks-view/src/main/content/jcr_root/apps/marks/i18n/fr.xml">
+        <entry key="$PROJECT_DIR$/../../ctco-mcom/cq/marks-feed-generation/pom.xml">
           <value>
             <set />
           </value>

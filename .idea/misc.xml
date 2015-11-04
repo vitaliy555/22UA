@@ -25,8 +25,8 @@
     <option name="formatter" value="ECLIPSE" />
     <option name="id" value="1417593443395" />
     <option name="name" value="default" />
-    <option name="pathToConfigFileJS" value="$PROJECT_DIR$/../ctco-mcom/env/ide-settings/eclipse/formatter-js.xml" />
-    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../ctco-mcom/env/ide-settings/eclipse/formatter.xml" />
+    <option name="pathToConfigFileJS" value="$PROJECT_DIR$/../../ctco-mcom/env/ide-settings/eclipse/formatter-js.xml" />
+    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../../ctco-mcom/env/ide-settings/eclipse/formatter.xml" />
     <option name="selectedJavaProfile" value="CTCO-MCOM" />
     <option name="selectedJavaScriptProfile" value="CTCO-FECM-JS " />
   </component>
@@ -51,9 +51,25 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+    <output url="file://$PROJECT_DIR$/classes" />
   </component>
   <component name="SuppressionsComponent">
     <option name="suppComments" value="[]" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

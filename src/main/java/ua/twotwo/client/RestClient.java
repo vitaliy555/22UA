@@ -1,8 +1,9 @@
-package ua.twotwo.client.cmd;
+package ua.twotwo.client;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
+import ua.twotwo.client.cmd.Cmd;
 
 import java.util.Arrays;
 
@@ -13,12 +14,11 @@ public class RestClient {
     @Autowired
     private RestTemplate restTemplate;
 
-    public <T> T execCmd(final Cmd<T> cmd){
+    public <T> ResponseEntity<T> execCmd(final Cmd cmd){
         final HttpHeaders headers = new HttpHeaders();
         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
         final HttpEntity<String> entity = new HttpEntity<String>("parameters", headers);
-        ResponseEntity<T> result = restTemplate.exchange(cmd.getUrl(), cmd.getMethod(), entity, cmd.getResponseType());
         // TODO check to error
-        return result.getBody();
+        return restTemplate.exchange(cmd.getUrl(), cmd.getMethod(), entity, cmd.getResponseType());
     }
 }

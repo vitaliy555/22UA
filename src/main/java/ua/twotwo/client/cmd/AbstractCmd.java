@@ -5,11 +5,11 @@ import org.springframework.http.HttpMethod;
 /**
  * Abstract cmd
  */
-public class AbstractCmd<T> implements Cmd<T> {
+public class AbstractCmd implements Cmd{
 
     private HttpMethod method = HttpMethod.GET;
     private String url;
-    private Class<T> responseType;
+    private Class responseType;
 
     @Override
     public HttpMethod getMethod() {
@@ -30,11 +30,11 @@ public class AbstractCmd<T> implements Cmd<T> {
     }
 
     @Override
-    public Class<T> getResponseType() {
+    public Class getResponseType() {
         return responseType;
     }
 
-    public void setResponseType(Class<T> responseType) {
+    public void setResponseType(Class responseType) {
         this.responseType = responseType;
     }
 }

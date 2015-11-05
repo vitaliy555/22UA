@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="stationService" class="ua.twotwo.service.impl.StationServiceImpl"/>
+
+    <bean id="restClient" class="ua.twotwo.client.RestClient"/>
+
+    <bean id="restTemplate" class="org.springframework.web.client.RestTemplate">
+        <property name="messageConverters">
+            <list>
+                <!--<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>-->
+                <bean class="ua.twotwo.converter.booking.BookingStationMessageConverter"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>

@@ -2,7 +2,7 @@ package ua.twotwo.enity;
 
 public class Station {
     private String title;
-    private String id;
+    private String station_id;
 
     public String getTitle() {
         return title;
@@ -12,11 +12,22 @@ public class Station {
         this.title = title;
     }
 
-    public String getId() {
-        return id;
+
+    /**
+     * Sets new station_id.
+     *
+     * @param station_id New value of station_id.
+     */
+    public void setStation_id(String station_id) {
+        this.station_id = station_id;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    /**
+     * Gets station_id.
+     *
+     * @return Value of station_id.
+     */
+    public String getStation_id() {
+        return station_id;
     }
 }

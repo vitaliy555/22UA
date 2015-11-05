@@ -1,16 +1,18 @@
-package ua.twotwo.convertor.booking;
+package ua.twotwo.converter.booking;
 
 import java.io.IOException;
+import java.io.OutputStream;
 
+import org.apache.commons.io.IOUtils;
 import org.springframework.http.HttpInputMessage;
 import org.springframework.http.HttpOutputMessage;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.http.converter.HttpMessageNotWritableException;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 
-import ua.twotwo.convertor.booking.dto.BookingStationAnswer;
+import ua.twotwo.converter.booking.dto.BookingStationAnswer;
 
-//public class BookingStationMessageConverter extends AbstractHttpMessageConverter {
+//TODO public class BookingStationMessageConverter extends AbstractHttpMessageConverter {
 public class BookingStationMessageConverter extends MappingJackson2HttpMessageConverter {
 
     @Override
@@ -34,7 +36,12 @@ public class BookingStationMessageConverter extends MappingJackson2HttpMessageCo
     @Override
     protected void writeInternal(Object o, HttpOutputMessage outputMessage) throws IOException,
             HttpMessageNotWritableException {
-        throw new RuntimeException(
-                "BookingStationMessageConverter method ---> writeInternal(Object o, HttpOutputMessage outputMessage) not supported");
+//        OutputStream body = outputMessage.getBody();
+//        byte[] bytes = IOUtils.;
+//        while(body)
+//
+//
+//        throw new RuntimeException(
+//                "BookingStationMessageConverter method ---> writeInternal(Object o, HttpOutputMessage outputMessage) not supported");
     }
 }

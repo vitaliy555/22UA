@@ -1,12 +1,13 @@
-package ua.twotwo.convertor.booking.dto;
+package ua.twotwo.converter.booking.dto;
 
 import java.util.Collection;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.collect.Lists;
 import ua.twotwo.enity.Station;
 // TODO refactoring for convertor
 public class BookingStationAnswer {
-
     private Collection<Station> value = Lists.newArrayList();
     boolean error;
     Object data;

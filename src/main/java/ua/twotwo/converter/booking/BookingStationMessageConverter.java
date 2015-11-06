@@ -3,6 +3,7 @@ package ua.twotwo.converter.booking;
 import java.io.IOException;
 import java.io.OutputStream;
 
+import com.google.gson.Gson;
 import org.apache.commons.io.IOUtils;
 import org.springframework.http.HttpInputMessage;
 import org.springframework.http.HttpOutputMessage;
@@ -15,6 +16,7 @@ import ua.twotwo.converter.booking.dto.BookingStationAnswer;
 //TODO public class BookingStationMessageConverter extends AbstractHttpMessageConverter {
 public class BookingStationMessageConverter extends MappingJackson2HttpMessageConverter {
 
+    private Gson gson = new Gson();
     @Override
     protected boolean supports(Class clazz) {
         throw new RuntimeException(

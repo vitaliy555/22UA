@@ -2,62 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33318ec4-1757-473c-a2e4-07c01e7de3fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/service/StationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/service/impl/StationServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ua/twotwo/service/impl/StationServiceImplTest.java" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\classes\context.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\classes\ua\twotwo\connector\cmd\Rest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\classes\ua\twotwo\dto\BookingStationAnswer.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\22UA\22UA\1.0-SNAPSHOT\22UA-1.0-SNAPSHOT.jar" afterPath="D:\Projects\GitHube\22UA\target\repo\22UA\22UA\1.0-SNAPSHOT\22UA-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\embeddedTomcatSample.jar" afterPath="D:\Projects\GitHube\22UA\target\embeddedTomcatSample.jar" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_core_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_databind_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__com_google_code_gson_gson_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__com_google_guava_guava_18_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__com_owlike_genson_0_99.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__com_sun_el_el_ri_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__com_sun_jersey_jersey_client_1_9_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__com_sun_jersey_jersey_core_1_9_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__com_sun_mail_javax_mail_1_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__commons_codec_commons_codec_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__commons_fileupload_commons_fileupload_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__commons_httpclient_commons_httpclient_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__commons_io_commons_io_1_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__javassist_javassist_3_12_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__javax_activation_activation_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__javax_annotation_jsr250_api_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__javax_javaee_api_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__javax_persistence_persistence_api_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__javax_servlet_jsp_jsp_api_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__junit_junit_4_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__net_jcip_jcip_annotations_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_httpcomponents_httpclient_4_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_core_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_el_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_jasper_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_tomcat_api_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_tomcat_el_api_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_tomcat_jasper_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_tomcat_jasper_el_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_tomcat_jsp_api_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_tomcat_juli_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_tomcat_servlet_api_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_apache_tomcat_tomcat_util_7_0_57.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_aspectj_aspectjrt_1_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_eclipse_jdt_core_compiler_ecj_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_glassfish_javax_json_1_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_hibernate_hibernate_core_4_1_4_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_hibernate_hibernate_entitymanager_4_1_4_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_javassist_javassist_3_15_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_jboss_resteasy_jaxrs_api_2_2_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_jboss_resteasy_resteasy_jaxrs_2_2_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_jsoup_jsoup_1_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_mockito_mockito_all_1_9_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_scannotation_scannotation_1_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_slf4j_jcl_over_slf4j_1_7_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_data_spring_data_commons_1_10_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_data_spring_data_jpa_1_8_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_spring_aop_4_1_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_spring_beans_4_1_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_spring_context_4_1_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_spring_core_4_1_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_spring_expression_4_1_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_spring_jdbc_4_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_spring_orm_4_0_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_spring_test_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_spring_tx_4_0_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_spring_web_4_1_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__org_springframework_spring_webmvc_4_1_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Projs\22UA\.idea\libraries\Maven__taglibs_standard_1_1_2.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/22UA.iml" afterPath="$PROJECT_DIR$/22UA.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/AbstractCmd.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/AbstractCmd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/impl/BookingStationCmd.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/impl/BookingStationCmd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/Cmd.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/Cmd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/RestClient.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/RestClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/enity/Station.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/enity/Station.java" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\22UA\22UA\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\22UA\22UA\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\22UA\22UA\1.0-SNAPSHOT\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\22UA\22UA\1.0-SNAPSHOT\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\antlr\antlr\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\antlr\antlr\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\aopalliance\aopalliance\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\aopalliance\aopalliance\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-annotations\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-annotations\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-core\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-core\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-databind\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-databind\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\com\google\code\gson\gson\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\com\google\code\gson\gson\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\com\google\guava\guava\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\com\google\guava\guava\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\com\owlike\genson\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\com\owlike\genson\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\el\el-ri\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\com\sun\el\el-ri\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\jersey\jersey-client\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\com\sun\jersey\jersey-client\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\jersey\jersey-core\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\com\sun\jersey\jersey-core\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\mail\javax.mail\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\com\sun\mail\javax.mail\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-codec\commons-codec\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\commons-codec\commons-codec\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-fileupload\commons-fileupload\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\commons-fileupload\commons-fileupload\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-httpclient\commons-httpclient\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\commons-httpclient\commons-httpclient\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-io\commons-io\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\commons-io\commons-io\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-logging\commons-logging\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\commons-logging\commons-logging\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\dom4j\dom4j\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\dom4j\dom4j\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\javassist\javassist\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\javassist\javassist\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\activation\activation\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\javax\activation\activation\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\annotation\jsr250-api\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\javax\annotation\jsr250-api\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\javaee-api\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\javax\javaee-api\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\persistence\persistence-api\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\javax\persistence\persistence-api\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\javax.servlet-api\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\javax.servlet-api\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\jsp\jsp-api\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\jsp\jsp-api\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\jstl\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\jstl\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\net\jcip\jcip-annotations\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\net\jcip\jcip-annotations\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\org\apache\commons\commons-lang3\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\org\apache\commons\commons-lang3\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\org\apache\httpcomponents\httpclient\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\org\apache\httpcomponents\httpclient\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\repo\org\apache\httpcomponents\httpcore\maven-metadata-appassembler.xml" afterPath="D:\Projects\GitHube\22UA\target\repo\org\apache\httpcomponents\httpcore\maven-metadata-appassembler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\maven-archiver\pom.properties" afterPath="D:\Projects\GitHube\22UA\target\maven-archiver\pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="D:\Projects\GitHube\22UA\target\bin\webapp" afterPath="D:\Projects\GitHube\22UA\target\bin\webapp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/BookingStationMessageConverter.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/BookingStationMessageConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Projects\GitHube\22UA\src\main\java\ua\twotwo\convertor\booking\BookingStationMessageConverter.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/BookingStationMessageConverter.java" />
-      <change type="MOVED" beforePath="D:\Projects\GitHube\22UA\src\main\java\ua\twotwo\convertor\booking\dto\BookingStationAnswer.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/dto/BookingStationAnswer.java" />
-      <change type="MOVED" beforePath="D:\Projects\GitHube\22UA\src\main\resources\context.xml" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" />
     </list>
     <ignored path="22UA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,9 +111,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,7 +121,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,18 +143,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveCallable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,11 +151,21 @@
       <file leaf-file-name="BookingStationMessageConverter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/BookingStationMessageConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.322785">
-              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.4940171">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,9 +175,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -199,8 +222,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ua/twotwo/service/impl/StationServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/dto/BookingStationAnswer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/beans.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/BookingStationMessageConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/impl/BookingStationCmd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/BookingStationMessageConverter.java" />
       </list>
     </option>
   </component>
@@ -220,8 +243,14 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
+        <option name="mavenHome" value="D:/progs/apache-maven-3.2.5" />
+        <option name="userSettingsFile" value="D:\progs\apache-maven-3.2.5\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -236,26 +265,6 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="22UA" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-      </PATH>
     </treeState>
   </component>
   <component name="NamedScopeManager">
@@ -264,7 +273,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1380" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -291,12 +300,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -729,11 +732,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
@@ -756,6 +765,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -911,16 +921,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1021,23 +1021,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <envMap />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.StationServiceImplTest.testGetBookingStations" />
@@ -1072,34 +1055,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1380" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25416037" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35530302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3547655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7308348" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7308348" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1115,7 +1098,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add entity and add logic to rest client" />
-    <option name="LAST_COMMIT_MESSAGE" value="add entity and add logic to rest client" />
+    <MESSAGE value="add gson" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gson" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1127,7 +1111,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/BookingStationMessageConverter.java</url>
-          <line>27</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -1157,7 +1141,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/BookingStationMessageConverter.java</url>
-          <line>43</line>
+          <line>45</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -1171,11 +1155,62 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/twotwo/service/impl/StationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/twotwo/service/impl/StationServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="90" selection-start-line="13" selection-start-column="90" selection-end-line="13" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/twotwo/service/StationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/BookingStationMessageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/impl/BookingStationCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.5.RELEASE/spring-web-4.1.5.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.537037">
           <caret line="271" column="20" selection-start-line="271" selection-start-column="20" selection-end-line="271" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,7 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="37.77778">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,7 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,26 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.25926">
           <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding>
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.5.RELEASE/spring-web-4.1.5.RELEASE-sources.jar!/org/springframework/http/HttpEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33259177">
-          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.5.RELEASE/spring-web-4.1.5.RELEASE-sources.jar!/org/springframework/http/ResponseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,10 +1288,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1287,7 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2982456">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,16 +1316,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#579#587#0" expanded="true" />
+            <element signature="e#579#587#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.5.RELEASE/spring-web-4.1.5.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="563" column="0" selection-start-line="563" selection-start-column="0" selection-end-line="563" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1321,7 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.3333335">
           <caret line="1344" column="0" selection-start-line="1344" selection-start-column="0" selection-end-line="1344" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1329,9 +1332,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1343,35 +1344,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/3.2.0.RELEASE/spring-test-3.2.0.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.5.RELEASE/spring-web-4.1.5.RELEASE-sources.jar!/org/springframework/http/converter/json/AbstractJackson2HttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6896553">
-          <caret line="216" column="76" selection-start-line="216" selection-start-column="76" selection-end-line="216" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.jar!/com/fasterxml/jackson/core/JsonFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.518518">
           <caret line="350" column="56" selection-start-line="350" selection-start-column="56" selection-end-line="350" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.5.RELEASE/spring-web-4.1.5.RELEASE-sources.jar!/org/springframework/http/converter/json/MappingJackson2HttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0022676">
-          <caret line="45" column="63" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1379,9 +1355,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,7 +1363,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1397,24 +1373,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/twotwo/converter/booking/BookingStationMessageConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.322785">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.4940171">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

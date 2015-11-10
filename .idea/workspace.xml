@@ -1,100 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33318ec4-1757-473c-a2e4-07c01e7de3fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/utils/AlphabetBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ua/twotwo/utils/AlphabetBeanTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/utils/AppConst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/dto/booking/BookingStationAnswer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/dto/Station.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/controllers/UpdateStationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\src\main\java\ua\twotwo\converter\booking\BookingStationMessageConverter.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\src\main\java\ua\twotwo\converter\booking\dto\BookingStationAnswer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\src\main\java\ua\twotwo\enity\Station.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\bin\webapp" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\bin\webapp.bat" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\classes\launch\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\classes\ua\twotwo\controllers\Hello.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\embeddedTomcatSample.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\22UA\22UA\1.0-SNAPSHOT\22UA-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\22UA\22UA\1.0-SNAPSHOT\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\22UA\22UA\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\antlr\antlr\2.7.7\antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\antlr\antlr\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\aopalliance\aopalliance\1.0\aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\aopalliance\aopalliance\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-annotations\2.2.2\jackson-annotations-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-annotations\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-core\2.2.2\jackson-core-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-core\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-databind\2.2.2\jackson-databind-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\fasterxml\jackson\core\jackson-databind\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\google\code\gson\gson\2.2.2\gson-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\google\code\gson\gson\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\google\guava\guava\18.0\guava-18.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\google\guava\guava\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\owlike\genson\0.99\genson-0.99.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\owlike\genson\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\el\el-ri\1.0\el-ri-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\el\el-ri\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\jersey\jersey-client\1.9.1\jersey-client-1.9.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\jersey\jersey-client\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\jersey\jersey-core\1.9.1\jersey-core-1.9.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\jersey\jersey-core\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\com\sun\mail\javax.mail\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-codec\commons-codec\1.2\commons-codec-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-codec\commons-codec\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-fileupload\commons-fileupload\1.2.1\commons-fileupload-1.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-fileupload\commons-fileupload\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-httpclient\commons-httpclient\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-io\commons-io\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\commons-logging\commons-logging\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\dom4j\dom4j\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javassist\javassist\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\activation\activation\1.1\activation-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\activation\activation\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\annotation\jsr250-api\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\javaee-api\7.0\javaee-api-7.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\javaee-api\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\persistence\persistence-api\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\javax.servlet-api\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\jsp\jsp-api\2.2\jsp-api-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\jsp\jsp-api\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\jstl\1.2\jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\javax\servlet\jstl\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\net\jcip\jcip-annotations\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\org\apache\commons\commons-lang3\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\org\apache\httpcomponents\httpclient\4.0.3\httpclient-4.0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\org\apache\httpcomponents\httpclient\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\org\apache\httpcomponents\httpcore\4.0.1\httpcore-4.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Projects\GitHube\22UA\target\repo\org\apache\httpcomponents\httpcore\maven-metadata-appassembler.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/22UA.iml" afterPath="$PROJECT_DIR$/22UA.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/AbstractCmd.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/AbstractCmd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/impl/BookingStationCmd.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/impl/BookingStationCmd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/Cmd.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/Cmd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/launch/Main.java" afterPath="$PROJECT_DIR$/src/main/java/launch/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/Main.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/RestClient.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/client/RestClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/service/StationService.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/service/StationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/twotwo/service/impl/StationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/twotwo/service/impl/StationServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ua/twotwo/service/impl/StationServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/ua/twotwo/service/impl/StationServiceImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    <list default="true" id="33318ec4-1757-473c-a2e4-07c01e7de3fb" name="Default" comment="add controller for serch booking stations">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -123,9 +31,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="9" column="49" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,7 +41,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#865#866#0" expanded="false" />
+                <element signature="e#904#905#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,7 +55,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +68,7 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -167,7 +79,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#343#344#0" expanded="false" />
+                <element signature="e#371#372#0" expanded="false" />
+                <element signature="e#426#427#0" expanded="false" />
+                <element signature="e#460#461#0" expanded="false" />
+                <element signature="e#492#493#0" expanded="false" />
+                <element signature="e#520#521#0" expanded="false" />
+                <element signature="e#563#564#0" expanded="false" />
+                <element signature="e#597#598#0" expanded="false" />
+                <element signature="e#628#629#0" expanded="false" />
+                <element signature="e#655#656#0" expanded="false" />
+                <element signature="e#695#696#0" expanded="false" />
+                <element signature="e#727#728#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,9 +103,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,8 +121,8 @@
       <file leaf-file-name="AlphabetBeanTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/twotwo/utils/AlphabetBeanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33830845">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.6020236">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -218,6 +142,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -348,10 +273,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -377,9 +300,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files" />
       </pane>
@@ -747,11 +667,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
@@ -775,6 +698,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1152,34 +1079,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.49573562" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5042644" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17750533" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18655914" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32842582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.4941957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2516129" sideWeight="0.4941957" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946696" sideWeight="0.4941957" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5058043" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33481646" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295583" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33481646" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.49573562" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1247,12 +1175,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/twotwo/utils/AlphabetBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/twotwo/service/impl/StationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1287,7 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,9 +1232,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1305,7 +1240,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#904#905#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,7 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33259177">
           <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1350,7 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1358,12 +1294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <element signature="e#392#393#0" expanded="false" />
-            <element signature="e#436#437#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#589#590#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1378,7 +1308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="563" column="0" selection-start-line="563" selection-start-column="0" selection-end-line="563" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1421,7 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1436,7 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="970" column="60" selection-start-line="970" selection-start-column="60" selection-end-line="970" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1445,7 +1372,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1454,12 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1467,7 +1388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="207" column="22" selection-start-line="207" selection-start-column="22" selection-end-line="207" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1475,7 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7048093">
           <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,7 +1403,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="88" selection-start-line="27" selection-start-column="88" selection-end-line="27" selection-end-column="88" />
           <folding>
-            <element signature="e#895#903#0" expanded="true" />
+            <element signature="e#895#903#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1501,7 +1420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17708333">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1509,7 +1427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028192371">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,8 +1435,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1528,7 +1445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="220" column="20" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1576,9 +1492,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="49" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1586,7 +1500,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#904#905#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1594,7 +1512,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1603,7 +1523,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1612,7 +1532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4792703">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1621,7 +1540,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1638,7 +1557,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#371#372#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
+            <element signature="e#460#461#0" expanded="false" />
+            <element signature="e#492#493#0" expanded="false" />
+            <element signature="e#520#521#0" expanded="false" />
+            <element signature="e#563#564#0" expanded="false" />
+            <element signature="e#597#598#0" expanded="false" />
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#655#656#0" expanded="false" />
+            <element signature="e#695#696#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1646,9 +1579,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1662,13 +1593,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/twotwo/utils/AlphabetBeanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33830845">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.6020236">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>22UA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

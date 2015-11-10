@@ -1,18 +1,14 @@
 package ua.twotwo.client.cmd.impl;
 
-import java.util.Collection;
-import java.util.List;
-
 import ua.twotwo.client.cmd.AbstractCmd;
-import ua.twotwo.converter.booking.dto.BookingStationAnswer;
+import ua.twotwo.dto.booking.BookingStationAnswer;
 
 public class BookingStationCmd extends AbstractCmd {
 
-    private final String url = "http://booking.uz.gov.ua/purchase/station/ly";
+    private final String url = "http://booking.uz.gov.ua/purchase/station/";
 
     public BookingStationCmd() {
         setUrl(url);
-        setResponseType(List.class);
-
+        setResponseType(BookingStationAnswer.class);
     }
 }

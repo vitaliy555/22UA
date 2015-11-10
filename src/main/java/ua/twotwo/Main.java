@@ -1,12 +1,19 @@
 package ua.twotwo;
 
-import ua.twotwo.client.cmd.impl.BookingStationCmd;
+
+
+import ua.twotwo.service.impl.StationServiceImpl;
+import org.apache.log4j.Logger;
+
 
 public class Main {
+    final static Logger logger = Logger.getLogger(Main.class);
     public static void main(String[] args) {
-//        BookingStantionCmd cmd = new BookingStantionCmd();
-//        System.out.println(cmd.getResponseType());
-//        BookingStationCmd cmd2 = new BookingStationCmd(String.class);
-//        System.out.println(cmd2.getResponseType());
+
+
+        logger.debug("log");
+        logger.warn("log");
+        logger.info("log");
+        logger.trace("log");
     }
 }

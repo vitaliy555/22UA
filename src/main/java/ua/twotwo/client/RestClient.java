@@ -1,16 +1,17 @@
 package ua.twotwo.client;
 
+import static org.springframework.http.HttpStatus.*;
+
 import java.util.Arrays;
+import java.util.Collection;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
 
 import ua.twotwo.client.cmd.Cmd;
+import ua.twotwo.utils.AppConst;
 
 import com.google.common.base.Preconditions;
 
@@ -19,6 +20,8 @@ import com.google.common.base.Preconditions;
  */
 public class RestClient {
     public static final String ERR_MESS_URL = "Url not can be null or empty";
+    private static Collection<HttpStatus> BAD_HTTP_STATUSES = Arrays.asList(BAD_GATEWAY, BAD_REQUEST, FORBIDDEN,
+            NOT_FOUND, INTERNAL_SERVER_ERROR);
     @Autowired
     private RestTemplate restTemplate;
 
@@ -26,8 +29,12 @@ public class RestClient {
         final HttpHeaders headers = new HttpHeaders();
         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
         final HttpEntity<String> entity = new HttpEntity<String>("parameters", headers);
-        // TODO check to error
-        return restTemplate.exchange(constructUrl(cmd), cmd.getMethod(), entity, cmd.getResponseType());
+        final ResponseEntity response = restTemplate.exchange(constructUrl(cmd), cmd.getMethod(), entity,
+                cmd.getResponseType());
+        if (BAD_HTTP_STATUSES.contains(response.getStatusCode()) || response.getBody() == null) {
+            throw new RuntimeException(AppConst.ERROR.BAD_RESPONSE.concat(response.toString()));
+        }
+        return response;
     }
 
     // TODO now only path param allow (add url param)

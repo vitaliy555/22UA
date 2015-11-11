@@ -93,6 +93,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/client/cmd/impl/UzStationCmd.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/controllers/StationController.java">
           <value>
             <set />

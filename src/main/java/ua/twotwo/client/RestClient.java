@@ -11,6 +11,7 @@ import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
 
 import ua.twotwo.client.cmd.Cmd;
+import ua.twotwo.error.ResponseException;
 import ua.twotwo.utils.AppConst;
 
 import com.google.common.base.Preconditions;
@@ -32,7 +33,7 @@ public class RestClient {
         final ResponseEntity response = restTemplate.exchange(constructUrl(cmd), cmd.getMethod(), entity,
                 cmd.getResponseType());
         if (BAD_HTTP_STATUSES.contains(response.getStatusCode()) || response.getBody() == null) {
-            throw new RuntimeException(AppConst.ERROR.BAD_RESPONSE.concat(response.toString()));
+            throw new ResponseException(response);
         }
         return response;
     }

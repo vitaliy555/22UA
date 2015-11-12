@@ -8,7 +8,7 @@ public class AppConst {
 
     }
 
-    public static class ERROR {
+    public static class EXCEPTION {
         public static final String BAD_RESPONSE = "BAD RESPONSE";
     }
 }

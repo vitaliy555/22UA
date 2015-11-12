@@ -1,6 +1,8 @@
 package ua.twotwo.dto;
 
-public class Station extends StationAbstract {
+public class Station {
+    protected String title;
+    protected String id;
 
     public Station() {
     }
@@ -9,4 +11,13 @@ public class Station extends StationAbstract {
         this.title = title;
         this.id = id;
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getId() {
+        return id;
+    }
+
 }

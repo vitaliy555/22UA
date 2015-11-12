@@ -1,41 +1,12 @@
 package ua.twotwo.dto;
 
-public class Station {
-    private String title;
-    private String station_id;
+public class Station extends StationAbstract {
 
     public Station() {
     }
 
-    public Station(String title, String station_id) {
+    public Station(String title, String id) {
         this.title = title;
-        this.station_id = station_id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-
-    /**
-     * Sets new station_id.
-     *
-     * @param station_id New value of station_id.
-     */
-    public void setStation_id(String station_id) {
-        this.station_id = station_id;
-    }
-
-    /**
-     * Gets station_id.
-     *
-     * @return Value of station_id.
-     */
-    public String getStation_id() {
-        return station_id;
+        this.id = id;
     }
 }

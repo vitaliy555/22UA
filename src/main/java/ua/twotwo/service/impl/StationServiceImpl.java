@@ -17,6 +17,9 @@ import ua.twotwo.utils.AlphabetBean;
 import com.google.common.collect.Lists;
 
 public class StationServiceImpl implements StationService {
+    public static final String SHARP = "#";
+    public static final String TILDE = "~";
+    public static final String REPLACE_REGEX = "\\(.+\\)".concat(TILDE);
     private static final Logger LOGGER = Logger.getLogger(StationServiceImpl.class);
 
     @Autowired
@@ -41,20 +44,17 @@ public class StationServiceImpl implements StationService {
         final UzStationCmd uzStationCmd = new UzStationCmd();
         final ResponseEntity<String> response = restClient.execCmd(uzStationCmd);
         return convertToStations(response.getBody());
-//        throw new RuntimeException("Method not supported ----> Collection<Station> getUzStations()");
-        // return null;
     }
 
-    private Collection<Station> convertToStations(final String stations) {
-        String[] stationsData = stations.replace("[", "").split("\",");
-        for (String stationData : stationsData) {
-            //TODO split
-            stationData.replaceAll("\\([à-ÿÀ-ß]+\\)", "");
+    private Collection<Station> convertToStations(final String stationsData) {
+        final Collection<Station> stations = Lists.newArrayList();
+        final String[] splitStations = stationsData.replace("[", "").split("\",");
+        for (String stationData : splitStations) {
+            final String stationWithOutCountry = stationData.replaceAll(REPLACE_REGEX, SHARP);
+            final String[] titleAndId = stationWithOutCountry.contains(SHARP) ? stationWithOutCountry
+                    .split(SHARP) : stationWithOutCountry.split(TILDE);
+            stations.add(new Station(titleAndId[0],titleAndId[1]));
         }
-        LOGGER.debug(stations);
-        return null;
+        return stations;
     }
-    public static final String DELIMITER_TITLE_ID = "~";
-    public static final String STATION_COUNTRY_SEPARATOR = "\\(";
-
 }

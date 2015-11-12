@@ -4,6 +4,14 @@ public class Station {
     private String title;
     private String station_id;
 
+    public Station() {
+    }
+
+    public Station(String title, String station_id) {
+        this.title = title;
+        this.station_id = station_id;
+    }
+
     public String getTitle() {
         return title;
     }

@@ -23,7 +23,8 @@ public class UpdateStationController {
     public String updateStations() {
         final Collection<Station> bookingStations = stationService.getBookingStations();
         LOGGER.debug(String.format(AppConst.INFO.SIZE_STATIONS_AND_FROM, bookingStations.size(), AppConst.INFO.BOOKING));
-        stationService.getUzStations();
+        final Collection<Station> uzStations = stationService.getUzStations();
+        LOGGER.debug(String.format(AppConst.INFO.SIZE_STATIONS_AND_FROM, uzStations.size(), AppConst.INFO.UZ));
         return "hello";
     }
 }

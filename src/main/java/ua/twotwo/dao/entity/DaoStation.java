@@ -9,9 +9,9 @@ import javax.persistence.Table;
 @Table(name = "station")
 public class DaoStation {
     @Id
-    @Column(name = "idBooking")
+    @Column(name = "id_booking")
     private Long idBooking;
-    @Column(name = "idUz")
+    @Column(name = "id_uz")
     private String idUz;
     @Column(name = "title")
     private String title;

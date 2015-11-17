@@ -27,9 +27,7 @@ public class RestClient {
     private RestTemplate restTemplate;
 
     public <T> ResponseEntity<T> execCmd(final Cmd cmd) {
-        final HttpHeaders headers = new HttpHeaders();
-        headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
-        final HttpEntity<String> entity = new HttpEntity<String>("parameters", headers);
+        final HttpEntity<String> entity = new HttpEntity<String>(null, cmd.getHttpHeaders());
         final ResponseEntity response = restTemplate.exchange(constructUrl(cmd), cmd.getMethod(), entity,
                 cmd.getResponseType());
         if (BAD_HTTP_STATUSES.contains(response.getStatusCode()) || response.getBody() == null) {

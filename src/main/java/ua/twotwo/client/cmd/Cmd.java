@@ -1,6 +1,7 @@
 package ua.twotwo.client.cmd;
 
 
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 
 import java.util.Map;
@@ -10,6 +11,8 @@ import java.util.Map;
  */
 public interface Cmd {
     void setMethod(HttpMethod method);
+    void addHeader(String headerName,String headerValue);
+    HttpHeaders getHttpHeaders();
     HttpMethod getMethod();
     void setUrl(String url);
     String getUrl();

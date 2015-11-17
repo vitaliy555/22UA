@@ -53,7 +53,7 @@ public class StationServiceImpl implements StationService {
             final String stationWithOutCountry = stationData.replaceAll(REPLACE_REGEX, SHARP);
             final String[] titleAndId = stationWithOutCountry.contains(SHARP) ? stationWithOutCountry
                     .split(SHARP) : stationWithOutCountry.split(TILDE);
-            stations.add(new Station(titleAndId[0],titleAndId[1]));
+            stations.add(new Station(titleAndId[0].trim(),titleAndId[1].trim()));
         }
         return stations;
     }

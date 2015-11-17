@@ -48,7 +48,7 @@ public class StationServiceImpl implements StationService {
 
     private Collection<Station> convertToStations(final String stationsData) {
         final Collection<Station> stations = Lists.newArrayList();
-        final String[] splitStations = stationsData.replace("[", "").split("\",");
+        final String[] splitStations = stationsData.replaceAll("\\[ \"", "").split("\", \"");
         for (String stationData : splitStations) {
             final String stationWithOutCountry = stationData.replaceAll(REPLACE_REGEX, SHARP);
             final String[] titleAndId = stationWithOutCountry.contains(SHARP) ? stationWithOutCountry

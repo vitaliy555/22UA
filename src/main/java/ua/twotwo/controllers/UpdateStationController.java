@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import ua.twotwo.dto.Station;
-import ua.twotwo.service.impl.StationServiceImpl;
+import ua.twotwo.service.SaverStationService;
+import ua.twotwo.service.StationService;
 import ua.twotwo.utils.AppConst;
 
 @Controller
@@ -20,15 +21,17 @@ public class UpdateStationController {
 
     private static final Logger LOGGER = Logger.getLogger(UpdateStationController.class);
     @Autowired
-    private StationServiceImpl stationService;
+    private StationService stationService;
+    @Autowired
+    private SaverStationService saverStationService;
 
     @RequestMapping(value = "/stations", method = RequestMethod.GET)
     public String updateStations() throws Exception {
-            final Collection<Station> bookingStations = stationService.getBookingStations();
-            LOGGER.debug(String.format(AppConst.INFO.SIZE_STATIONS_AND_FROM, bookingStations.size(),
-                    AppConst.INFO.BOOKING));
-            final Collection<Station> uzStations = stationService.getUzStations();
-            LOGGER.debug(String.format(AppConst.INFO.SIZE_STATIONS_AND_FROM, uzStations.size(), AppConst.INFO.UZ));
+        final Collection<Station> bookingStations = stationService.getBookingStations();
+        LOGGER.debug(String.format(AppConst.INFO.SIZE_STATIONS_AND_FROM, bookingStations.size(), AppConst.INFO.BOOKING));
+        final Collection<Station> uzStations = stationService.getUzStations();
+        LOGGER.debug(String.format(AppConst.INFO.SIZE_STATIONS_AND_FROM, uzStations.size(), AppConst.INFO.UZ));
+        saverStationService.saveCrossStations(uzStations, bookingStations);
         return "hello";
     }
 

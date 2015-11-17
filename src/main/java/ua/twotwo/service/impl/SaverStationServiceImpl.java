@@ -27,10 +27,8 @@ public class SaverStationServiceImpl implements SaverStationService {
         for (Station uzStation : uzStations) {
             for (Station bookingStation : bookingStations) {
                 if (uzStation.getTitle().equals(bookingStation.getTitle())) {
-                    // TODO move this hardcode
                     daoStations.add(new DaoStation(Long.valueOf(bookingStation.getId()), uzStation.getId(), uzStation.getTitle()));
-                    stationsRepository.save(daoStations);
-                    continue;
+                    break;
                 }
             }
         }

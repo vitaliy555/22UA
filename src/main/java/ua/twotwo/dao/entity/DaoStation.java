@@ -1,21 +1,44 @@
 package ua.twotwo.dao.entity;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
-public abstract class DaoStation {
+@Entity
+@Table(name = "station")
+public class DaoStation {
     @Id
-    @Column(name = "id")
-    protected String id;
+    @Column(name = "idBooking")
+    private Long idBooking;
+    @Column(name = "idUz")
+    private String idUz;
     @Column(name = "title")
-    protected String title;
+    private String title;
 
-    public String getId() {
-        return id;
+    public DaoStation() {
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public DaoStation(Long idBooking, String idUz, String title) {
+        this.idBooking = idBooking;
+        this.idUz = idUz;
+        this.title = title;
+    }
+
+    public Long getIdBooking() {
+        return idBooking;
+    }
+
+    public void setIdBooking(Long idBooking) {
+        this.idBooking = idBooking;
+    }
+
+    public String getIdUz() {
+        return idUz;
+    }
+
+    public void setIdUz(String idUz) {
+        this.idUz = idUz;
     }
 
     public String getTitle() {

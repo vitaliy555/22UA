@@ -4,6 +4,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="stationService" class="ua.twotwo.service.impl.StationServiceImpl"/>
+    <bean id="saverStationService" class="ua.twotwo.service.impl.SaverStationServiceImpl"/>
 
     <bean id="restClient" class="ua.twotwo.client.RestClient"/>
 
@@ -17,5 +18,4 @@
     </bean>
 
     <bean id="alphabetBeans" class="ua.twotwo.utils.AlphabetBean"/>
-
 </beans>

@@ -9,9 +9,9 @@ import ua.twotwo.dto.Station;
  */
 public interface SaverStationService {
     /**
-     * Save cross stations
+     * Save into DB and cut cross stations from collections
      * @param uzStations the uzStations 
      * @param bookingStations the bookingStations
      */
-    void saveCrossStations(final Collection<Station> uzStations, final Collection<Station> bookingStations);
+    void saveAndCutCrossStations(final Collection<Station> uzStations, final Collection<Station> bookingStations);
 }

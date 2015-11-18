@@ -23,7 +23,7 @@ public class SaverStationServiceImpl implements SaverStationService {
     private StationsRepository stationsRepository;
 
     @Override
-    public void saveCrossStations(Collection<Station> uzStations, Collection<Station> bookingStations) {
+    public void saveAndCutCrossStations(Collection<Station> uzStations, Collection<Station> bookingStations) {
         final Collection<DaoStation> daoStations = Lists.newArrayList();
         for (Iterator<Station> uzIterator = uzStations.iterator(); uzIterator.hasNext();) {
             Station uzStation = uzIterator.next();

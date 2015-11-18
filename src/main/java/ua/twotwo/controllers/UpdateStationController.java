@@ -31,7 +31,7 @@ public class UpdateStationController {
         LOGGER.debug(String.format(AppConst.INFO.SIZE_STATIONS_AND_FROM, bookingStations.size(), AppConst.INFO.BOOKING));
         final Collection<Station> uzStations = stationService.getUzStations();
         LOGGER.debug(String.format(AppConst.INFO.SIZE_STATIONS_AND_FROM, uzStations.size(), AppConst.INFO.UZ));
-        saverStationService.saveCrossStations(uzStations, bookingStations);
+        saverStationService.saveAndCutCrossStations(uzStations, bookingStations);
         return "hello";
     }
 

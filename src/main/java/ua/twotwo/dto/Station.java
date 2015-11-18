@@ -1,6 +1,5 @@
 package ua.twotwo.dto;
 
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Station {
@@ -24,6 +23,7 @@ public class Station {
     public void setTitle(String title) {
         this.title = title;
     }
+
     public String getId() {
         return id;
     }

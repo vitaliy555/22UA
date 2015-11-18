@@ -51,9 +51,9 @@ public class StationServiceImpl implements StationService {
         final String[] splitStations = stationsData.replaceAll("\\[ \"", "").split("\", \"");
         for (String stationData : splitStations) {
             final String stationWithOutCountry = stationData.replaceAll(REPLACE_REGEX, SHARP);
-            final String[] titleAndId = stationWithOutCountry.contains(SHARP) ? stationWithOutCountry
-                    .split(SHARP) : stationWithOutCountry.split(TILDE);
-            stations.add(new Station(titleAndId[0].trim(),titleAndId[1].trim()));
+            final String[] titleAndId = stationWithOutCountry.contains(SHARP) ? stationWithOutCountry.split(SHARP)
+                    : stationWithOutCountry.split(TILDE);
+            stations.add(new Station(titleAndId[0].trim(), titleAndId[1].trim()));
         }
         return stations;
     }

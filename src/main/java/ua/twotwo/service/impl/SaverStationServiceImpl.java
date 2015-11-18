@@ -1,6 +1,7 @@
 package ua.twotwo.service.impl;
 
 import java.util.Collection;
+import java.util.Iterator;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,10 +25,15 @@ public class SaverStationServiceImpl implements SaverStationService {
     @Override
     public void saveCrossStations(Collection<Station> uzStations, Collection<Station> bookingStations) {
         final Collection<DaoStation> daoStations = Lists.newArrayList();
-        for (Station uzStation : uzStations) {
-            for (Station bookingStation : bookingStations) {
+        for (Iterator<Station> uzIterator = uzStations.iterator(); uzIterator.hasNext();) {
+            Station uzStation = uzIterator.next();
+            for (Iterator<Station> bookingIterator = bookingStations.iterator(); bookingIterator.hasNext();) {
+                Station bookingStation = bookingIterator.next();
                 if (uzStation.getTitle().equals(bookingStation.getTitle())) {
-                    daoStations.add(new DaoStation(Long.valueOf(bookingStation.getId()), uzStation.getId(), uzStation.getTitle()));
+                    daoStations.add(new DaoStation(Long.valueOf(bookingStation.getId()), uzStation.getId(), uzStation
+                            .getTitle()));
+                    uzIterator.remove();
+                    bookingIterator.remove();
                     break;
                 }
             }

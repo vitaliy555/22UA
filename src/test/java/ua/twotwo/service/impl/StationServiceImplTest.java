@@ -15,7 +15,7 @@ import ua.twotwo.dto.Station;
 import ua.twotwo.service.StationService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({ "/beans.xml","/db.xml" })
+@ContextConfiguration({ "/beans.xml", "/db.xml" })
 public class StationServiceImplTest {
     @Autowired
     private StationService stationService;

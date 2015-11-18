@@ -4,6 +4,14 @@ import java.util.Collection;
 
 import ua.twotwo.dto.Station;
 
+/**
+ * Service for save stations to DB 
+ */
 public interface SaverStationService {
-    void saveCrossStations(final Collection<Station> uzStations,final Collection<Station> bookingStations);
+    /**
+     * Save cross stations
+     * @param uzStations the uzStations 
+     * @param bookingStations the bookingStations
+     */
+    void saveCrossStations(final Collection<Station> uzStations, final Collection<Station> bookingStations);
 }

@@ -1,8 +1,5 @@
 package ua.twotwo.client.cmd.impl;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 import ua.twotwo.client.cmd.AbstractCmd;
 
 public class UzStationCmd extends AbstractCmd {

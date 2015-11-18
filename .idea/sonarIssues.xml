@@ -98,12 +98,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/controllers/GlobalExceptionController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/controllers/StationController.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/controllers/UpdateStationController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/controllers/handler/GlobalExceptionController.java">
           <value>
             <set />
           </value>
@@ -138,12 +148,97 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dao/entity/BookingDaoStation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dao/entity/BookingStation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dao/entity/DaoStation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dao/entity/DaoStation1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dao/entity/UzDaoStation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dao/repository/BookingStationsRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dao/repository/StationsRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dto/Station.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dto/Station1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dto/StationAbstract.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dto/StationOld.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dto/booking/BookingStationAnswer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/enity/Station.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/error/ResponseException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/service/SaveStationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/service/SaverStationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/service/StationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/service/StationServiceSaver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/service/impl/SaverStationServiceImpl.java">
           <value>
             <set />
           </value>
@@ -163,6 +258,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/service/impl/StationServiceSaverImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/utils/AlphabetBean.java">
           <value>
             <set />
@@ -174,6 +274,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/beans.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/db.xml">
           <value>
             <set />
           </value>
@@ -193,12 +298,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/error/global_error.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/ua/twotwo/Utils/AlphabetBeanTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/ua/twotwo/service/impl/SaverStationServiceImplTest.java">
           <value>
             <set />
           </value>
@@ -213,7 +328,59 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../ctco-mcom/cq/marks-admin-services/src/main/java/com/marks/admin/services/scaffolding/PrdScaffoldingSkuService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ctco-mcom/cq/marks-dto/src/main/java/com/marks/hybris/dto/InventoryData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../ctco-mcom/cq/marks-feed-generation/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ctco-mcom/cq/marks-services/src/main/java/com/marks/services/inventory/OnlineSkuAvailabilityService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ctco-mcom/cq/marks-services/src/main/java/com/marks/services/inventory/impl/OnlineSkuAvailabilityServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ctco-mcom/cq/marks-services/src/main/java/com/marks/services/inventory/impl/SkuAvailabilityCalculationStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ctco-mcom/cq/marks-services/src/main/java/com/marks/services/inventory/impl/SkuInventory.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="true" />
+                <option name="key" value="57b608cb-a2ca-49fb-9ee8-d559b391ab85" />
+                <option name="line" value="15" />
+                <option name="message" value="Document this public constructor." />
+                <option name="ruleKey" value="squid:UndocumentedApi" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="true" />
+                <option name="key" value="0e4cd1d1-32d6-43ce-b652-3b5427ce4443" />
+                <option name="line" value="6" />
+                <option name="message" value="Document this public class." />
+                <option name="ruleKey" value="squid:UndocumentedApi" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ctco-mcom/cq/marks-utils/src/main/java/com/marks/constants/JcrProductProperties.java">
           <value>
             <set />
           </value>

@@ -8,7 +8,7 @@ public class BookingStationCmd extends AbstractCmd {
     private final String url = "http://booking.uz.gov.ua/purchase/station/";
 
     public BookingStationCmd() {
-        addHeader("Cookie","_gv_lang=ua");
+        addHeader("Cookie", "_gv_lang=ua");
         setUrl(url);
         setResponseType(BookingStationAnswer.class);
     }

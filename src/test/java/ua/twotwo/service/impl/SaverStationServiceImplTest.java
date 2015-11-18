@@ -30,7 +30,7 @@ public class SaverStationServiceImplTest {
         Station dzStation = new Station("DZ", "2");
         Collection<Station> uzStations = Lists.newArrayList(dnStation, dzStation);
         Collection<Station> bookingStations = Lists.newArrayList(dnStation);
-        saverStationService.saveCrossStations(uzStations, bookingStations);
+        saverStationService.saveAndCutCrossStations(uzStations, bookingStations);
         assertFalse(uzStations.isEmpty());
         assertTrue(bookingStations.isEmpty());
     }

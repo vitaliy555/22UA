@@ -1,6 +1,6 @@
 package ua.twotwo.utils;
 
-import static junit.framework.Assert.assertFalse;
+import static junit.framework.Assert.*;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -22,8 +22,6 @@ import com.google.common.base.Preconditions;
  */
 public class RestClient {
     public static final String ERR_MESS_URL = "Url not can be null or empty";
-    private static Collection<HttpStatus> BAD_HTTP_STATUSES = Arrays.asList(BAD_GATEWAY, BAD_REQUEST, FORBIDDEN,
-            NOT_FOUND, INTERNAL_SERVER_ERROR);
     @Autowired
     private RestTemplate restTemplate;
 
@@ -31,9 +29,6 @@ public class RestClient {
         final HttpEntity<String> entity = new HttpEntity<String>(null, cmd.getHttpHeaders());
         final ResponseEntity response = restTemplate.exchange(constructUrl(cmd), cmd.getMethod(), entity,
                 cmd.getResponseType());
-        if (BAD_HTTP_STATUSES.contains(response.getStatusCode()) || response.getBody() == null) {
-            throw new ResponseException(response);
-        }
         return response;
     }
 

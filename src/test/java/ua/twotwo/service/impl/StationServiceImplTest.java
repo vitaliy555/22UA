@@ -1,7 +1,6 @@
 package ua.twotwo.service.impl;
 
-import static junit.framework.Assert.assertFalse;
-import static junit.framework.Assert.assertNotNull;
+import static junit.framework.Assert.*;
 
 import java.util.Collection;
 

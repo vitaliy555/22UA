@@ -10,7 +10,7 @@ import javax.persistence.Table;
 public class DaoStation {
     @Id
     @Column(name = "id_booking")
-    private Long idBooking;
+    private Integer idBooking;
     @Column(name = "id_uz")
     private String idUz;
     @Column(name = "title")
@@ -19,17 +19,17 @@ public class DaoStation {
     public DaoStation() {
     }
 
-    public DaoStation(Long idBooking, String idUz, String title) {
+    public DaoStation(Integer idBooking, String idUz, String title) {
         this.idBooking = idBooking;
         this.idUz = idUz;
         this.title = title;
     }
 
-    public Long getIdBooking() {
+    public Integer getIdBooking() {
         return idBooking;
     }
 
-    public void setIdBooking(Long idBooking) {
+    public void setIdBooking(Integer idBooking) {
         this.idBooking = idBooking;
     }
 

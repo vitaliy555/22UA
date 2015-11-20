@@ -30,7 +30,7 @@ public class SaverStationServiceImpl implements SaverStationService {
             for (Iterator<Station> bookingIterator = bookingStations.iterator(); bookingIterator.hasNext();) {
                 Station bookingStation = bookingIterator.next();
                 if (uzStation.getTitle().equals(bookingStation.getTitle())) {
-                    daoStations.add(new DaoStation(Long.valueOf(bookingStation.getId()), uzStation.getId(), uzStation
+                    daoStations.add(new DaoStation(Integer.valueOf(bookingStation.getId()), uzStation.getId(), uzStation
                             .getTitle()));
                     uzIterator.remove();
                     bookingIterator.remove();

@@ -1,6 +1,9 @@
 package ua.twotwo.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Train {
+    @JsonProperty("num")
     private String number;
     private String route;
     private String schedule;

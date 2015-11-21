@@ -1,11 +1,9 @@
 package ua.twotwo.service.impl;
 
-import java.util.Collection;
-
+import com.google.common.collect.Lists;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-
 import ua.twotwo.client.RestClient;
 import ua.twotwo.client.cmd.impl.BookingStationCmd;
 import ua.twotwo.client.cmd.impl.UzStationCmd;
@@ -14,7 +12,7 @@ import ua.twotwo.dto.booking.BookingStationAnswer;
 import ua.twotwo.service.StationService;
 import ua.twotwo.utils.AlphabetBean;
 
-import com.google.common.collect.Lists;
+import java.util.Collection;
 
 public class StationServiceImpl implements StationService {
     public static final String SHARP = "#";

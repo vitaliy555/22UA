@@ -9,8 +9,10 @@ import java.util.Collection;
 public class BookingTrainAnswer {
     @JsonProperty("value")
     private Collection<Train> value = Lists.newArrayList();
-    boolean error;
-    Object data;
+    @JsonProperty("error")
+    private boolean error;
+    @JsonProperty("data")
+    private Object data;
 
     public Collection<Train> getValue() {
         return value;

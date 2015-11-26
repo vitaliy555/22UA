@@ -203,6 +203,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dto/Train.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/dto/booking/BookingStationAnswer.java">
           <value>
             <set />
@@ -214,6 +219,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/error/ResponseException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/service/AvailableTrainService.java">
           <value>
             <set />
           </value>
@@ -234,6 +244,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/service/StationServiceSaver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ua/twotwo/service/impl/AvailableTrainServiceImpl.java">
           <value>
             <set />
           </value>
@@ -299,6 +314,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/error/global_error.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/updateStations">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/update_stations.jsp">
           <value>
             <set />
           </value>
@@ -381,6 +406,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../ctco-mcom/cq/marks-utils/src/main/java/com/marks/constants/JcrProductProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../sms-bilet/src/main/java/com/ment/Car.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../sms-bilet/src/main/java/com/ment/Main.java">
           <value>
             <set />
           </value>

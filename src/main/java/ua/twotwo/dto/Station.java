@@ -3,7 +3,6 @@ package ua.twotwo.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Station {
-    @JsonProperty("title")
     protected String title;
     @JsonProperty("station_id")
     protected String id;
@@ -16,12 +15,22 @@ public class Station {
         this.id = id;
     }
 
+    @JsonProperty("title")
     public String getTitle() {
         return title;
     }
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    @JsonProperty("station")
+    public String getStation() {
+        return title;
+    }
+
+    public void setStation(String station) {
+        this.title = station;
     }
 
     public String getId() {

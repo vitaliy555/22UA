@@ -22,6 +22,7 @@ public class AbstractCmd implements Cmd {
     private Class responseType;
     private Map<String, String> params = Maps.newHashMap();
     private String pathParam;
+    private String requestBody;
     {
         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
     }
@@ -88,5 +89,13 @@ public class AbstractCmd implements Cmd {
     @Override
     public String getPathParam() {
         return pathParam;
+    }
+
+    public String getRequestBody() {
+        return requestBody;
+    }
+
+    public void setRequestBody(String requestBody) {
+        this.requestBody = requestBody;
     }
 }

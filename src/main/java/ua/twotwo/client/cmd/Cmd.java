@@ -1,9 +1,9 @@
 package ua.twotwo.client.cmd;
 
-import java.util.Map;
-
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
+
+import java.util.Map;
 
 /**
  * interface cmd
@@ -32,4 +32,8 @@ public interface Cmd {
     void setPathParam(String pathParam);
 
     String getPathParam();
+
+    String getRequestBody();
+
+    void setRequestBody(String requestBody);
 }

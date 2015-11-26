@@ -18,7 +18,7 @@
         <processorPath useClasspath="true" />
       </profile>
       <profile default="false" name="Annotation profile for 22UA" enabled="true">
-        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
@@ -26,7 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="22UA" target="1.6" />
+      <module name="22UA" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

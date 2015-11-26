@@ -1,6 +1,6 @@
-package ua.twotwo.client.cmd;
+package ua.twotwo.client.cmd.impl;
 
-import org.springframework.http.HttpMethod;
+import ua.twotwo.client.cmd.AbstractCmd;
 import ua.twotwo.dto.booking.BookingTrainAnswer;
 
 import javax.script.ScriptEngine;
@@ -20,15 +20,21 @@ import java.util.regex.Pattern;
 import static org.apache.commons.lang3.StringUtils.EMPTY;
 import static org.springframework.http.HttpMethod.POST;
 
-public class TestCMD extends AbstractCmd {
+public class AvailableStationCmd extends AbstractCmd {
     private final String URL = "http://booking.uz.gov.ua/en/purchase/search/";
     public static final String BOOKING_URL = "http://booking.uz.gov.ua/";
+    private static final String REQUEST_BODY_TEMPLATE = "station_id_from=%s&station_id_till=%s&date_dep=%s&time_dep=00:00&time_dep_till=24:00";
 
-    public TestCMD() {
+    public AvailableStationCmd(final Integer fromId, final Integer toId, final String time) {
+        setRequestBody(prepareRequestBody(fromId, toId, time));
         fillHeaders();
         setUrl(URL);
         setMethod(POST);
         setResponseType(BookingTrainAnswer.class);
+    }
+
+    private String prepareRequestBody(final Integer fromId, final Integer toId, final String time) {
+        return String.format(REQUEST_BODY_TEMPLATE, fromId, toId, time);
     }
 
     private void fillHeaders() {

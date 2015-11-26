@@ -7,6 +7,7 @@ public class Train {
     private String number;
     private String route;
     private String schedule;
+    @JsonProperty("from")
     private Station fromStation;
     private Station toStation;
     private boolean available;

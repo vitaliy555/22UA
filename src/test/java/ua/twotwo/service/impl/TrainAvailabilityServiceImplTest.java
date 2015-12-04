@@ -1,35 +1,55 @@
 package ua.twotwo.service.impl;
 
-import org.joda.time.DateTime;
-import org.joda.time.format.DateTimeFormat;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Matchers.anyInt;
+import static org.mockito.Matchers.anyString;
+import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
+import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
+import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
+
+import java.util.Collection;
+
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.MediaType;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import ua.twotwo.client.RestClient;
-import ua.twotwo.client.cmd.impl.AvailableStationCmd;
-import ua.twotwo.dto.booking.BookingTrainAnswer;
+import org.springframework.test.web.client.MockRestServiceServer;
+import org.springframework.web.client.RestTemplate;
 
-import static org.junit.Assert.assertFalse;
+import ua.twotwo.client.cmd.impl.AvailableStationCmd;
+import ua.twotwo.dto.AvailableTrain;
+import ua.twotwo.utils.StubTool;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"/beans.xml", "/db.xml"})
+@ContextConfiguration({ "/beans.xml", "/db.xml" })
 public class TrainAvailabilityServiceImplTest {
     @Autowired
-    RestClient client;
+    private TrainAvailabilityServiceImpl trainAvailabilityService;
+    @Autowired
+    private RestTemplate restTemplate;
 
-    private final String currentDate = DateTimeFormat.forPattern("MM.dd.YYYY").print(new DateTime());
-    private final int from = 2208001;
-    private final int to = 2218000;
+    @Before
+    public void setUp() throws Exception {
+        final AvailableStationCmd availableStationCmd = new AvailableStationCmd(anyInt(), anyInt(), anyString());
+        final MockRestServiceServer mockRestServiceServer = MockRestServiceServer.createServer(restTemplate);
+        mockRestServiceServer
+                .expect(requestTo(availableStationCmd.getUrl()))
+                .andExpect(method(availableStationCmd.getMethod()))
+                .andRespond(
+                        withSuccess(StubTool.readStubFromResource("availableTrainStub.json"),
+                                MediaType.APPLICATION_JSON));
 
+    }
 
     @Test
     public void testGetAvailableTrains() throws Exception {
-        AvailableStationCmd availableStationCmd = new AvailableStationCmd(from, to, currentDate);
-        ResponseEntity<BookingTrainAnswer> response = client.execCmd(availableStationCmd);
-        assertFalse(response.getBody().isError());
-        assertFalse(response.getBody().getValue().isEmpty());
+        final Collection<AvailableTrain> availableTrains = trainAvailabilityService.getAvailableTrains(anyInt(),
+                anyInt(), anyString());
+        assertFalse(availableTrains.isEmpty());
+        assertTrue(availableTrains.size() == 2);
     }
 }

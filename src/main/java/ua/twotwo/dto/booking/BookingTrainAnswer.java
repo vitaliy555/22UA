@@ -2,23 +2,24 @@ package ua.twotwo.dto.booking;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.collect.Lists;
+import ua.twotwo.dto.AvailableTrain;
 import ua.twotwo.dto.Train;
 
 import java.util.Collection;
 
 public class BookingTrainAnswer {
     @JsonProperty("value")
-    private Collection<Train> value = Lists.newArrayList();
+    private Collection<AvailableTrain> value = Lists.newArrayList();
     @JsonProperty("error")
     private boolean error;
     @JsonProperty("data")
     private Object data;
 
-    public Collection<Train> getValue() {
+    public Collection<AvailableTrain> getValue() {
         return value;
     }
 
-    public void setValue(Collection<Train> value) {
+    public void setValue(Collection<AvailableTrain> value) {
         this.value = value;
     }
 

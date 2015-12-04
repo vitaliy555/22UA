@@ -1,0 +1,56 @@
+{
+  "value": [
+    {
+      "num": "1TEST",
+      "model": 3,
+      "category": 1,
+      "from": {
+        "station_id": "111",
+        "station": "TEST STATION 1",
+        "date": 1449156000,
+        "src_date": "2015-12-03 17:20:00"
+      },
+      "till": {
+        "station_id": "222",
+        "station": "TEST STATION 2",
+        "date": 1449175740,
+        "src_date": "2015-12-03 22:49:00"
+      },
+      "types": [
+        {
+          "title": "PLATZKARD",
+          "letter": "P",
+          "places": 100500
+        }
+      ],
+      "reserve_error": "reserve_24h"
+    },
+    {
+      "num": "2TEST",
+      "model": 3,
+      "category": 1,
+      "from": {
+        "station_id": "333",
+        "station": "TEST STATION 3",
+        "date": 1449156000,
+        "src_date": "2015-12-03 17:20:00"
+      },
+      "till": {
+        "station_id": "444",
+        "station": "TEST STATION 4",
+        "date": 1449175740,
+        "src_date": "2015-12-03 22:49:00"
+      },
+      "types": [
+        {
+          "title": "CUPE",
+          "letter": "C",
+          "places": 100501
+        }
+      ],
+      "reserve_error": "reserve_24h"
+    }
+  ],
+  "error": false,
+  "data": null
+}

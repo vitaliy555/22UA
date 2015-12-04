@@ -3,9 +3,11 @@ package ua.twotwo.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Station {
-    protected String title;
+    private String title;
     @JsonProperty("station_id")
-    protected String id;
+    private String id;
+    @JsonProperty("src_date")
+    private String date;//this field for set data arrive/departure
 
     public Station() {
     }
@@ -39,5 +41,13 @@ public class Station {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }

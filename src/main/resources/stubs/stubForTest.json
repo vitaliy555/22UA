@@ -1,0 +1,47 @@
+{
+  "_id": "5661623ec2206c40caf82516",
+  "index": 0,
+  "guid": "ad6f5992-d98a-405e-8824-0429281c0bf2",
+  "isActive": true,
+  "balance": "$3,932.34",
+  "picture": "http://placehold.it/32x32",
+  "age": 22,
+  "eyeColor": "green",
+  "name": {
+    "first": "Ruth",
+    "last": "Barnes"
+  },
+  "company": "FARMEX",
+  "email": "ruth.barnes@farmex.us",
+  "phone": "+1 (808) 471-3756",
+  "address": "323 Coles Street, Dawn, Vermont, 4279",
+  "about": "Qui anim aute irure amet nostrud aliquip culpa nostrud tempor consectetur. Ullamco deserunt adipisicing id consectetur quis excepteur nulla exercitation cupidatat. Veniam esse et labore deserunt sit veniam. Ut eiusmod sint velit ad adipisicing sit in occaecat.",
+  "registered": "Saturday, February 8, 2014 12:56 PM",
+  "latitude": "81.772052",
+  "longitude": "155.951695",
+  "tags": [
+    7,
+    "labore"
+  ],
+  "range": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "friends": [
+    3,
+    {
+      "id": 1,
+      "name": "Kidd Hendricks"
+    }
+  ],
+  "greeting": "Hello, Ruth! You have 6 unread messages.",
+  "favoriteFruit": "banana"
+}

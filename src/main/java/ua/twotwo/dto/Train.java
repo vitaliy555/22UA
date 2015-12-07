@@ -9,6 +9,7 @@ public class Train {
     private String schedule;
     @JsonProperty("from")
     private Station fromStation;
+    @JsonProperty("till")
     private Station toStation;
     private boolean available;
 

@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+import com.google.common.base.Preconditions;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
@@ -14,6 +16,7 @@ import com.google.common.collect.Maps;
  * Abstract cmd
  */
 public class AbstractCmd implements Cmd {
+    public static final String ERR_MESS_URL = "Url not can be null or empty";
 
     private HttpMethod method = HttpMethod.GET;
     // JSON by default
@@ -53,7 +56,12 @@ public class AbstractCmd implements Cmd {
 
     @Override
     public String getUrl() {
-        return url;
+        String fullUrl = url;
+        Preconditions.checkArgument(StringUtils.isNotEmpty(fullUrl), ERR_MESS_URL);
+        if (StringUtils.isNotEmpty(pathParam)){
+            fullUrl=fullUrl.endsWith("/")?fullUrl.concat(pathParam):fullUrl.concat("/").concat(pathParam);
+        }
+        return fullUrl;
     }
 
     @Override
@@ -84,11 +92,6 @@ public class AbstractCmd implements Cmd {
     @Override
     public void setPathParam(String pathParam) {
         this.pathParam = pathParam;
-    }
-
-    @Override
-    public String getPathParam() {
-        return pathParam;
     }
 
     public String getRequestBody() {

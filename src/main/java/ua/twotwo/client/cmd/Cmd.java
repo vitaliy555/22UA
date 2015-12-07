@@ -31,8 +31,6 @@ public interface Cmd {
 
     void setPathParam(String pathParam);
 
-    String getPathParam();
-
     String getRequestBody();
 
     void setRequestBody(String requestBody);

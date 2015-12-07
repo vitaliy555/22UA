@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import ua.twotwo.dao.entity.DaoStation;
 import ua.twotwo.dto.Station;
 import ua.twotwo.service.SaverStationService;
 import ua.twotwo.service.StationService;
@@ -32,7 +33,10 @@ public class UpdateStationController {
         LOGGER.debug(String.format(INFO.SIZE_STATIONS_AND_FROM, bookingStations.size(), INFO.BOOKING));
         final Collection<Station> uzStations = stationService.getUzStations();
         LOGGER.debug(String.format(INFO.SIZE_STATIONS_AND_FROM, uzStations.size(), INFO.UZ));
-        saverStationService.saveAndCutCrossStations(uzStations, bookingStations);
+        final Collection<DaoStation> savedStations = saverStationService.saveEqualsByTitleStations(uzStations,
+                bookingStations);
+        LOGGER.debug(String.format(INFO.SAVED_STATIONS, savedStations.size()));
+
         fillModel(model, bookingStations, uzStations);
         return "update_stations";
     }

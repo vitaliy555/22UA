@@ -2,6 +2,7 @@ package ua.twotwo.service;
 
 import java.util.Collection;
 
+import ua.twotwo.dao.entity.DaoStation;
 import ua.twotwo.dto.Station;
 
 /**
@@ -9,9 +10,10 @@ import ua.twotwo.dto.Station;
  */
 public interface SaverStationService {
     /**
-     * Save into DB and cut cross stations from collections
-     * @param uzStations the uzStations 
+     * Save into DB only equals bt title stations
+     * @param uzStations the uzStations
      * @param bookingStations the bookingStations
+     * @return saved stations
      */
-    void saveAndCutCrossStations(final Collection<Station> uzStations, final Collection<Station> bookingStations);
+    Collection<DaoStation> saveEqualsByTitleStations(final Collection<Station> uzStations, final Collection<Station> bookingStations);
 }

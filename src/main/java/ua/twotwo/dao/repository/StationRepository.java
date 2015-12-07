@@ -7,6 +7,6 @@ import ua.twotwo.dao.entity.DaoStation;
 /**
  * Stations repository
  */
-public interface StationsRepository extends CrudRepository<DaoStation, Integer> {
+public interface StationRepository extends CrudRepository<DaoStation, Integer> {
 
 }

@@ -1,5 +1,7 @@
 .idea
 .idea/workspace.xml
+.idea/compiler.xml
+.idea/sonarIssues.xml
 .setting
 target
 tomcat.8081

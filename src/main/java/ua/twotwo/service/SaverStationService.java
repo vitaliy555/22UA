@@ -10,10 +10,9 @@ import ua.twotwo.dto.Station;
  */
 public interface SaverStationService {
     /**
-     * Save into DB only equals bt title stations
+     * Save into DB and remove from collections equals by title stations
      * @param uzStations the uzStations
      * @param bookingStations the bookingStations
-     * @return saved stations
      */
-    Collection<DaoStation> saveEqualsByTitleStations(final Collection<Station> uzStations, final Collection<Station> bookingStations);
+    void saveEqualsByTitleStations(final Collection<Station> uzStations, final Collection<Station> bookingStations);
 }

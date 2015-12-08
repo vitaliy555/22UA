@@ -1,8 +1,7 @@
 package ua.twotwo.service.impl;
 
-import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.when;
 
 import java.util.Collection;
 import java.util.Collections;
@@ -10,12 +9,14 @@ import java.util.Collections;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.*;
+import org.mockito.InjectMocks;
+import org.mockito.Matchers;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import ua.twotwo.dao.entity.DaoStation;
 import ua.twotwo.dao.repository.StationRepository;
 import ua.twotwo.dto.Station;
 import ua.twotwo.service.SaverStationService;
@@ -45,10 +46,10 @@ public class SaverStationServiceImplTest {
         final Station bookingStationTest1 = new Station("test1", "100500");
         final Station bookingStationTest3 = new Station("test3", "3");
 
-        final Collection<Station> uzStations = Lists.newArrayList(uzStationTest1,uzStationTest2);
-        final Collection<Station> bookingStations = Lists.newArrayList(bookingStationTest1,bookingStationTest3);
-
-        Collection<DaoStation> savedStations = saverStationService.saveEqualsByTitleStations(uzStations, bookingStations);
-        assertTrue(savedStations.size()==1);
+        final Collection<Station> uzStations = Lists.newArrayList(uzStationTest1, uzStationTest2);
+        final Collection<Station> bookingStations = Lists.newArrayList(bookingStationTest1, bookingStationTest3);
+        saverStationService.saveEqualsByTitleStations(uzStations, bookingStations);
+        assertTrue(uzStations.size() == 1);
+        assertTrue(bookingStations.size() == 1);
     }
 }

@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="uk" >
+<head><meta charset="utf-8" /><title>Розклад руху пасажирських поїздів :: Пасажирам :: Офіційний веб-сайт Укрзалізниці</title><link media="all" rel="stylesheet" type="text/css" href="/style/sitewide.1447251490.css" /><link media="all" rel="stylesheet" type="text/css" href="/style/avail.1411461770.css" /><link media="all" rel="stylesheet" type="text/css" href="/style/schedule.1409576992.css" /><link rel="stylesheet" href="/style/jquery.fancybox.css" /><link rel="stylesheet" href="/style/video-js.css" /><link media="print" rel="stylesheet" type="text/css" href="/style/print.1369905224.css" />
+
+<!--[if lt IE 7]>
+<style type="text/css" media="screen">
+body { behavior: url(/lib/csshover3.htc) }
+/* img { behavior: url(/lib/pngbehavior.htc) } */
+</style>
+<![endif]-->
+
+
+<!--[if lte IE 8]>
+<script type="text/javascript" src="/lib/jquery.1324465560.js"></script><script type="text/javascript" src="/lib/jquery.tools.1324465620.js"></script><script type="text/javascript" src="/lib/jquery.sbx.1412757740.js"></script><script type="text/javascript" src="/lib/jquery.main.1410354982.js"></script><script type="text/javascript" src="/lib/drop-down2.1410269167.js"></script><script type="text/javascript" src="/lib/jstorage.1394190690.js"></script><script type="text/javascript" src="/lib/jquery.cycle.lite.1326881220.js"></script><script type="text/javascript" src="/lib/jquery.fancybox.pack.1403687168.js"></script><script type="text/javascript" src="/lib/video.1408707752.js"></script>
+
+<script type="text/javascript">
+// HTML5 support
+var tags = "abbr|article|aside|audio|canvas|details|figcaption|figure|footer|header|hgroup|mark|meter|nav|output|progress|section|summary|time|video".split("|");
+for(var i in tags) { document.createElement(tags[i]) };
+
+head = {
+js: function(url) { return true }
+,	ready: function(func) { if (window && window.$) $(func) }
+};
+</script>
+<![endif]-->
+
+
+
+<![if gt IE 8]>
+<script src="/lib/head.min.js"></script>
+<![endif]>
+
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<a class="speak-only" href="#content" title="Пропустити навігацію">Пропустити навігацію</a>
+<div id="wrapper">
+<!-- header -->
+<div id="header">
+<h1 class="logo" role="banner"><a href="/" title="Головна сторінка">Укрзалізниця</a></h1>
+<div class="header-area">
+<div class="user-area">
+
+<ul class="lang"><li class="uk active"><span class="lang-btn"><span>укр</span></span></li><li class="en"><a href="/en/passengers/timetable/" title="in English" class="lang-btn"><span>eng</span></a></li></ul>
+
+
+<div class="header-avail">
+<h2 class="speak-only">Налаштування кольорів та шрифтів</h2>
+<a class="avail-trigger" rel="#avail-overlay" href="#" role="button" title="Налаштувати кольори та шрифти"></a>
+</div>
+
+<div class="header-avail-controls" id="avail-overlay">
+<a class="close" href="javascript:void(0)"><span>Закрити</a>
+<label><input type="checkbox" id="acc-trigger" value="1"> Спеціальні шрифти та кольори</label>
+<div class="blocks">
+<div class="fonts-block"><h2>Шрифт</h2></div>
+<div class="colors-block"><h2>Колір</h2></div>
+</div>
+</div>
+
+<div class="site-navigation">
+<a href="/sitemap/" class="btn-map">Мапа сайту</a>
+
+<h2 class="speak-only">Форма пошуку на сайті</h2>
+<form action="/search/" method="get" class="search-form" role="search">
+<fieldset>
+<input type="text" class="text-field" name="q" value="" />
+<input type="submit" class="btn-search" value="Пошук">
+</fieldset>
+</form>					</div>
+</div>
+
+<!-- nav -->
+<div class="nav" role="navigation">
+<h2 class="speak-only">Головне меню</h2>
+<ul id="main-nav">
+<li class="level1 first sub1"><h2><a href="/about/" class="level1">Про нас</a></h2><div class="drop"><div class="drop-inner">
+<ul class="level2"><li class="level2 first sub2"><a href="/about/general_information/" class="level2">Загальна інформація</a></li><li class="level2 sub2"><a href="/about/activity/" class="level2">Діяльність</a></li><li class="level2 sub2"><a href="/about/investors/" class="level2">Для інвесторів</a></li><li class="level2 sub2"><a href="/about/documents/" class="level2">Документи</a></li><li class="level2 sub2"><a href="/about/technical_and_social_policy/" class="level2">Технічна і соціальна політика</a></li><li class="level2 sub2"><a href="/about/procurement/" class="level2">Закупівлі</a></li><li class="level2 last sub2"><a href="/about/rent_uz/" class="level2"><a class="level2"  href="http://rent.uz.gov.ua/rent">Пропозиції оренди нерухомості</a></a></li></ul>
+</div></div></li><li class="level1 incrumb1 sub1"><h2><a href="/passengers/" class="level1">Пасажирам</a></h2><div class="drop"><div class="drop-inner">
+<ul class="level2"><li class="level2 first sub2"><a href="/passengers/reservation_purchase_travel_documents/" class="level2">Резервування / придбання проїзних документів</a></li><li class="level2 incrumb2 sub2"><strong class="level2"><span>Розклад руху пасажирських поїздів</span></strong></li><li class="level2 sub2"><a href="/passengers/timetable_new2015/" class="level2">Розклад руху пасажирських поїздів  з 13.12.2015</a></li><li class="level2 sub2"><a href="/passengers/suburban_train_schedule/" class="level2">Розклад руху приміських поїздів</a></li><li class="level2 sub2"><a href="/passengers/ticket_discounts/" class="level2">Пільги на проїзд залізничним транспортом</a></li><li class="level2 sub2"><a href="/passengers/station_services_and_facilities/" class="level2">Послуги на вокзалах та у поїздах</a></li><li class="level2 sub2"><a href="/passengers/carriage_rules/" class="level2">Правила перевезень</a></li><li class="level2"><a href="/passengers/scheme_of_passenger_car/" class="level2">Схеми пасажирських вагонів та поїздів</a></li><li class="level2 sub2"><a href="/passengers/ticketing/" class="level2">Оплата квитків Оnline (дослідна експлуатація)</a></li><li class="level2"><a href="/passengers/delay_info/" class="level2">Інформація про запізнення</a></li><li class="level2 sub2"><a href="/passengers/timetables_cis/" class="level2">Розклад руху пасажирських поїздів СНД</a></li><li class="level2 sub2"><a href="/passengers/smps/" class="level2">УМПС</a></li><li class="level2 last sub2"><a href="/passengers/pravbez/" class="level2">Правила безпеки для пасажирів та громадян</a></li></ul>
+</div></div></li><li class="level1 sub1"><h2><a href="/cargo_transportation/" class="level1">Вантажні перевезення</a></h2><div class="drop"><div class="drop-inner">
+<ul class="level2"><li class="level2 first sub2"><a href="/cargo_transportation/legal_documents/" class="level2">Нормативно-правова база</a></li><li class="level2 sub2"><a href="/cargo_transportation/general_information/" class="level2">Загальна інформація</a></li><li class="level2 sub2"><a href="/cargo_transportation/tariff_conditions/" class="level2">Тарифні умови</a></li><li class="level2 sub2"><a href="/cargo_transportation/electronic_transportation/" class="level2">Електронний документообіг</a></li><li class="level2 sub2"><a href="/cargo_transportation/truck_renting/" class="level2">Оренда вагонів</a></li><li class="level2 sub2"><a href="/cargo_transportation/intermodal_transportation/" class="level2">Інтермодальні перевезення</a></li><li class="level2 sub2"><a href="/cargo_transportation/work_in_public_places/" class="level2">Робота на місцях загального користування</a></li><li class="level2"><a href="/cargo_transportation/operators/" class="level2">Оператори</a></li><li class="level2 sub2"><a href="/cargo_transportation/null_wag/" class="level2">Наявність вільних порожніх вагонів</a></li><li class="level2 last sub2"><a href="/cargo_transportation/grain/" class="level2">Інформація для вантажовідправників зернових вантажів</a></li></ul>
+</div></div></li><li class="level1 sub1"><h2><a href="/work_on_the_railway/" class="level1">Робота на залізниці</a></h2><div class="drop"><div class="drop-inner">
+<ul class="level2"><li class="level2 first"><a href="/work_on_the_railway/careers/" class="level2">Вакансії</a></li><li class="level2"><a href="/work_on_the_railway/education_and_training/" class="level2">Навчання та стажування</a></li><li class="level2 sub2"><a href="/work_on_the_railway/bezpeka_praci/" class="level2">Безпека праці</a></li><li class="level2"><a href="/work_on_the_railway/our_leisure/" class="level2">Наше дозвілля</a></li><li class="level2 sub2"><a href="/work_on_the_railway/fk/" class="level2">ФК «Експрес»</a></li><li class="level2 last"><a href="/work_on_the_railway/social_priorities/" class="level2">Соціальні пріоритети</a></li></ul>
+</div></div></li><li class="level1 sub1"><h2><a href="/press_center/" class="level1">Прес-центр</a></h2><div class="drop"><div class="drop-inner">
+<ul class="level2"><li class="level2 first sub2"><a href="/press_center/up_to_date_topic/" class="level2">Актуальна тема</a></li><li class="level2 sub2"><a href="/press_center/latest_news/" class="level2">Новини</a></li><li class="level2 sub2"><a href="/press_center/ukrainian_railways_in_mass_media/" class="level2">ЗМІ про Укрзалізницю</a></li><li class="level2 sub2"><a href="/press_center/photogallery/" class="level2">Світлини</a></li><li class="level2 sub2"><a href="/press_center/video_gallery/" class="level2">Відеотека</a></li><li class="level2 last sub2"><a href="/press_center/magistral_newspaper/" class="level2">Газета «Магістраль»</a></li></ul>
+</div></div></li><li class="level1 last sub1"><h2><a href="/contacts_feedback/" class="level1">Контакти/Зворотний зв'язок</a></h2><div class="drop"><div class="drop-inner">
+<ul class="level2"><li class="level2 first sub2"><a href="/contacts_feedback/contacts/" class="level2">Контакти</a></li><li class="level2 sub2"><a href="/contacts_feedback/ask_a_question/" class="level2">Поставити  питання</a></li><li class="level2 sub2"><a href="/contacts_feedback/public_information/" class="level2">Доступ до публічної інформації</a></li><li class="level2 sub2"><a href="/contacts_feedback/faq/" class="level2">Відповіді на типові питання</a></li><li class="level2 sub2"><a href="/contacts_feedback/reception_of_citizens/" class="level2">Прийом громадян</a></li><li class="level2 last sub2"><a href="/contacts_feedback/questioning/" class="level2">Анкетування</a></li></ul>
+</div></div></li>					</ul>
+</div>
+
+</div>
+</div>
+
+
+
+<!-- main -->
+<div class="twocolumn">
+
+<div id="main"><div id="main-container"><div id="cpn-top-image" class="cpn-gallery2"><div class="navi"></div><a class="prev browse left"></a><div class="scrollable"><div class="items"><div class="container"><div class="wrapper"><img src="/files/top-image/Topslide_786x121_8.jpg" data-url="/files/top-image/Topslide_786x121_8.jpg" data-h="121" title="" alt=""/>				<h4 class="title"></h4>
+<div class="descr"></div>
+</div></div><div class="container"><div class="wrapper"><img src="/files/top-image/Topslide_786x121_12.jpg" data-url="/files/top-image/Topslide_786x121_12.jpg" data-h="121" title="" alt=""/>				<h4 class="title"></h4>
+<div class="descr"></div>
+</div></div><div class="container"><div class="wrapper"><img src="/files/top-image/Topslide_786x121_march3.jpg" data-url="/files/top-image/Topslide_786x121_march3.jpg" data-h="120" title="" alt=""/>				<h4 class="title"></h4>
+<div class="descr"></div>
+</div></div><div class="container"><div class="wrapper"><img src="/files/top-image/Topslide_786x121_13.jpg" data-url="/files/top-image/Topslide_786x121_13.jpg" data-h="121" title="" alt=""/>				<h4 class="title"></h4>
+<div class="descr"></div>
+</div></div></div></div><a class="next browse right"></a><div class="clearer"></div></div><div class="holder">
+
+<div class="aside">
+
+<h2 class="speak-only">Допоміжне меню</h2>
+<ul class="aside-menu" role="navigation">
+<li class="level1 first sub1"><a href="/about/" title="Про нас" class="level1"><span>Про нас</span></a><ul class="level2"><li class="level2 first sub2"><a href="/about/general_information/" title="Загальна інформація" class="level2"><span>Загальна інформація</span></a><ul class="level3"><li class="level3 first"><a href="/about/general_information/history/" title="Історія" class="level3"><span>Історія</span></a></li><li class="level3 sub3"><a href="/about/general_information/top_management/" title="Керівництво" class="level3"><span>Керівництво</span></a></li><li class="level3 sub3"><a href="/about/general_information/main_departments/" title="Головні управління" class="level3"><span>Головні управління</span></a></li><li class="level3 sub3"><a href="/about/general_information/railways/" title="Залізниці" class="level3"><span>Залізниці</span></a></li><li class="level3 last sub3"><a href="/about/general_information/entertainments/" title="Підприємства" class="level3"><span>Підприємства</span></a></li></ul></li><li class="level2 sub2"><a href="/about/activity/" title="Діяльність" class="level2"><span>Діяльність</span></a><ul class="level3"><li class="level3 first sub3"><a href="/about/activity/science/" title="Наука" class="level3"><span>Наука</span></a></li><li class="level3 sub3"><a href="/about/activity/international_activities/" title="Міжнародна діяльність" class="level3"><span>Міжнародна діяльність</span></a></li><li class="level3 last sub3"><a href="/about/activity/non_primary_activities/" title="Неосновні види діяльності" class="level3"><span>Неосновні види діяльності</span></a></li></ul></li><li class="level2 sub2"><a href="/about/investors/" title="Для інвесторів" class="level2"><span>Для інвесторів</span></a><ul class="level3"><li class="level3 first sub3"><a href="/about/investors/ukrainian_railways_structure/" title="Структура компанії" class="level3"><span>Структура компанії</span></a></li><li class="level3 sub3"><a href="/about/investors/credit_ratings/" title="Кредитні рейтинги" class="level3"><span>Кредитні рейтинги</span></a></li><li class="level3"><a href="/about/investors/financial_statements/" title="Фінансові показники/показники основної діяльності" class="level3"><span>Фінансові показники/показники основної діяльності</span></a></li><li class="level3"><a href="/about/investors/borrowings/" title="Боргові інструменти" class="level3"><span>Боргові інструменти</span></a></li><li class="level3 sub3"><a href="/about/investors/risk_management/" title="Управління ризиками" class="level3"><span>Управління ризиками</span></a></li><li class="level3 last sub3"><a href="/about/investors/contact_for_investors/" title="Контактна інформація" class="level3"><span>Контактна інформація</span></a></li></ul></li><li class="level2 sub2"><a href="/about/documents/" title="Документи" class="level2"><span>Документи</span></a><ul class="level3"><li class="level3 first sub3"><a href="/about/documents/reform_program/" title="Програма реформування" class="level3"><span>Програма реформування</span></a></li><li class="level3"><a href="/about/documents/laws_of_ukraine/" title="Закони України" class="level3"><span>Закони України</span></a></li><li class="level3"><a href="/about/documents/statute/" title="Статут УЗ" class="level3"><span>Статут УЗ</span></a></li><li class="level3 sub3"><a href="/about/documents/legislature/" title="Нормативно-правова база" class="level3"><span>Нормативно-правова база</span></a></li><li class="level3 sub3"><a href="/about/documents/bills/" title="Законопроекти" class="level3"><span>Законопроекти</span></a></li><li class="level3 last sub3"><a href="/about/documents/spiv/" title="Співпраця" class="level3"><span>Співпраця</span></a></li></ul></li><li class="level2 sub2"><a href="/about/technical_and_social_policy/" title="Технічна і соціальна політика" class="level2"><span>Технічна і соціальна політика</span></a><ul class="level3"><li class="level3 first"><a href="/about/technical_and_social_policy/technical_upgrading/" title="Технічне переоснащення" class="level3"><span>Технічне переоснащення</span></a></li><li class="level3 sub3"><a href="/about/technical_and_social_policy/technical_regulation/" title="Технічне регулювання" class="level3"><span>Технічне регулювання</span></a></li><li class="level3 sub3"><a href="/about/technical_and_social_policy/medical/" title="Медичні заклади" class="level3"><span>Медичні заклади</span></a></li><li class="level3 last sub3"><a href="/about/technical_and_social_policy/training/" title="Підготовка кадрів" class="level3"><span>Підготовка кадрів</span></a></li></ul></li><li class="level2 sub2"><a href="/about/procurement/" title="Закупівлі" class="level2"><span>Закупівлі</span></a><ul class="level3"><li class="level3 first last sub3"><a href="/about/procurement/zakupog/" title="Оголошення про закупівлі" class="level3"><span>Оголошення про закупівлі</span></a></li></ul></li><li class="level2 last sub2"><a href="/about/rent_uz/" title="&lt;a class=&quot;level2&quot;  href=&quot;http://rent.uz.gov.ua/rent&quot;&gt;Пропозиції оренди нерухомості&lt;/a&gt;" class="level2"><span><a class="level2"  href="http://rent.uz.gov.ua/rent">Пропозиції оренди нерухомості</a></span></a></li></ul></li><li class="level1 incrumb1 sub1"><a href="/passengers/" title="Пасажирам" class="level1"><span>Пасажирам</span></a><ul class="level2"><li class="level2 first sub2"><a href="/passengers/reservation_purchase_travel_documents/" title="Резервування / придбання проїзних документів" class="level2"><span>Резервування / придбання проїзних документів</span></a><ul class="level3"><li class="level3 first last"><a href="/passengers/reservation_purchase_travel_documents/local_offices/" title="Адреси кас" class="level3"><span>Адреси кас</span></a></li></ul></li><li class="level2 incrumb2 sub2"><strong class="level2"><span>Розклад руху пасажирських поїздів</span></strong></li><li class="level2 sub2"><a href="/passengers/timetable_new2015/" title="Розклад руху пасажирських поїздів  з 13.12.2015" class="level2"><span>Розклад руху пасажирських поїздів  з 13.12.2015</span></a></li><li class="level2 sub2"><a href="/passengers/suburban_train_schedule/" title="Розклад руху приміських поїздів" class="level2"><span>Розклад руху приміських поїздів</span></a></li><li class="level2 sub2"><a href="/passengers/ticket_discounts/" title="Пільги на проїзд залізничним транспортом" class="level2"><span>Пільги на проїзд залізничним транспортом</span></a></li><li class="level2 sub2"><a href="/passengers/station_services_and_facilities/" title="Послуги на вокзалах та у поїздах" class="level2"><span>Послуги на вокзалах та у поїздах</span></a><ul class="level3"><li class="level3 first sub3"><a href="/passengers/station_services_and_facilities/service_stations/" title="Послуги на вокзалах" class="level3"><span>Послуги на вокзалах</span></a></li><li class="level3 sub3"><a href="/passengers/station_services_and_facilities/services_in_trains/" title="Послуги в поїздах" class="level3"><span>Послуги в поїздах</span></a></li><li class="level3 sub3"><a href="/passengers/station_services_and_facilities/background_stations/" title="Довідкова інформація вокзалів" class="level3"><span>Довідкова інформація вокзалів</span></a></li><li class="level3 last sub3"><a href="/passengers/station_services_and_facilities/osob/" title="Загальна інформація елементів доступності для осіб з обмеженими фізичними можливостями по вокзалах залізниць України" class="level3"><span>Загальна інформація елементів доступності для осіб з обмеженими фізичними можливостями по вокзалах залізниць України</span></a></li></ul></li><li class="level2 sub2"><a href="/passengers/carriage_rules/" title="Правила перевезень" class="level2"><span>Правила перевезень</span></a><ul class="level3"><li class="level3 first last sub3"><a href="/passengers/carriage_rules/coefficient/" title="Коефіцієнти гнучкого регулювання по календарних періодах та днях тижня" class="level3"><span>Коефіцієнти гнучкого регулювання по календарних періодах та днях тижня</span></a></li></ul></li><li class="level2"><a href="/passengers/scheme_of_passenger_car/" title="Схеми пасажирських вагонів та поїздів" class="level2"><span>Схеми пасажирських вагонів та поїздів</span></a></li><li class="level2 sub2"><a href="/passengers/ticketing/" title="Оплата квитків Оnline (дослідна експлуатація)" class="level2"><span>Оплата квитків Оnline (дослідна експлуатація)</span></a></li><li class="level2"><a href="/passengers/delay_info/" title="Інформація про запізнення" class="level2"><span>Інформація про запізнення</span></a></li><li class="level2 sub2"><a href="/passengers/timetables_cis/" title="Розклад руху пасажирських поїздів СНД" class="level2"><span>Розклад руху пасажирських поїздів СНД</span></a></li><li class="level2 sub2"><a href="/passengers/smps/" title="УМПС" class="level2"><span>УМПС</span></a></li><li class="level2 last sub2"><a href="/passengers/pravbez/" title="Правила безпеки для пасажирів та громадян" class="level2"><span>Правила безпеки для пасажирів та громадян</span></a></li></ul></li><li class="level1 sub1"><a href="/cargo_transportation/" title="Вантажні перевезення" class="level1"><span>Вантажні перевезення</span></a><ul class="level2"><li class="level2 first sub2"><a href="/cargo_transportation/legal_documents/" title="Нормативно-правова база" class="level2"><span>Нормативно-правова база</span></a><ul class="level3"><li class="level3 first sub3"><a href="/cargo_transportation/legal_documents/terms_of_freight/" title="Правила перевезення вантажів" class="level3"><span>Правила перевезення вантажів</span></a></li><li class="level3"><a href="/cargo_transportation/legal_documents/smgs/" title="СМГС" class="level3"><span>СМГС</span></a></li><li class="level3"><a href="/cargo_transportation/legal_documents/tsim_smgs/" title="Нормативні документи КОТІФ" class="level3"><span>Нормативні документи КОТІФ</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/legal_documents/pgv/" title="ПГВ" class="level3"><span>ПГВ</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/legal_documents/materialy_rady/" title="Матеріали ради із залізничного транспорту країн-учасниць СНД та Балтії." class="level3"><span>Матеріали ради із залізничного транспорту країн-учасниць СНД та Балтії.</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/legal_documents/umovy_peretynu_kordonu/" title="Умови перетину кордону" class="level3"><span>Умови перетину кордону</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/legal_documents/parom/" title="Правила перевезення вантажів у міжнародному залізнично-поромному сполученні" class="level3"><span>Правила перевезення вантажів у міжнародному залізнично-поромному сполученні</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/legal_documents/mignarodni_taryfy/" title="Міжнародні тарифи" class="level3"><span>Міжнародні тарифи</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/legal_documents/nomenklatura/" title="Номенклатура вантажів" class="level3"><span>Номенклатура вантажів</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/legal_documents/nakaz513/" title="Наказ Мінінфраструктури № 513" class="level3"><span>Наказ Мінінфраструктури № 513</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/legal_documents/metodyka/" title="Методика розрахунку тарифів на перевезення вантажів залізничним транспортом" class="level3"><span>Методика розрахунку тарифів на перевезення вантажів залізничним транспортом</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/legal_documents/vnesennia_zmin/" title="Про внесення змін до Коефіцієнтів, що застосовуються до тарифів Збірника тарифів" class="level3"><span>Про внесення змін до Коефіцієнтів, що застосовуються до тарифів Збірника тарифів</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/legal_documents/poryadok_peregliadu/" title="Порядок перегляду тарифів на перевезення вантажів залізничним транспортом" class="level3"><span>Порядок перегляду тарифів на перевезення вантажів залізничним транспортом</span></a></li><li class="level3 last"><a href="/cargo_transportation/legal_documents/protokoly_narad/" title="Протоколи нарад по узгодженню орієнтовних обсягів та умов перевезень зовнішньоторговельних вантажів залізничним транспортом між залізничними адміністраціями" class="level3"><span>Протоколи нарад по узгодженню орієнтовних обсягів та умов перевезень зовнішньоторговельних вантажів залізничним транспортом між залізничними адміністраціями</span></a></li></ul></li><li class="level2 sub2"><a href="/cargo_transportation/general_information/" title="Загальна інформація" class="level2"><span>Загальна інформація</span></a><ul class="level3"><li class="level3 first sub3"><a href="/cargo_transportation/general_information/contracts_of_carriage/" title="Договори на перевезення" class="level3"><span>Договори на перевезення</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/general_information/planning/" title="Планування" class="level3"><span>Планування</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/general_information/formuvannia/" title="План формування поїздів" class="level3"><span>План формування поїздів</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/general_information/claims/" title="Претензії та позови" class="level3"><span>Претензії та позови</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/general_information/indicators_of_transit/" title="Показники вантажних перевезень" class="level3"><span>Показники вантажних перевезень</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/general_information/cargo_stations/" title="Довідник вантажних станцій" class="level3"><span>Довідник вантажних станцій</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/general_information/contacts/" title="Контакти" class="level3"><span>Контакти</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/general_information/wagon_owners/" title="Власникам вагонів та вагонобудівникам України" class="level3"><span>Власникам вагонів та вагонобудівникам України</span></a></li><li class="level3 last sub3"><a href="/cargo_transportation/general_information/per_per/" title="Перелік перевізників, з якими укладено договори про організацію міжнародних перевезень" class="level3"><span>Перелік перевізників, з якими укладено договори про організацію міжнародних перевезень</span></a></li></ul></li><li class="level2 sub2"><a href="/cargo_transportation/tariff_conditions/" title="Тарифні умови" class="level2"><span>Тарифні умови</span></a><ul class="level3"><li class="level3 first sub3"><a href="/cargo_transportation/tariff_conditions/transportation_in_ukraine/" title="Перевезення в межах України" class="level3"><span>Перевезення в межах України</span></a></li><li class="level3"><a href="/cargo_transportation/tariff_conditions/transit/" title="Транзитні перевезення" class="level3"><span>Транзитні перевезення</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/tariff_conditions/list_of_freight_forwarders/" title="Перелік експедиторів" class="level3"><span>Перелік експедиторів</span></a></li><li class="level3 last sub3"><a href="/cargo_transportation/tariff_conditions/tarifny_umovy/" title="Тарифні умови залізничних адміністрацій" class="level3"><span>Тарифні умови залізничних адміністрацій</span></a></li></ul></li><li class="level2 sub2"><a href="/cargo_transportation/electronic_transportation/" title="Електронний документообіг" class="level2"><span>Електронний документообіг</span></a><ul class="level3"><li class="level3 first sub3"><a href="/cargo_transportation/electronic_transportation/legislature/" title="Нормативно-правова база" class="level3"><span>Нормативно-правова база</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/electronic_transportation/giots_csk/" title="ГІОЦ ЦСК" class="level3"><span>ГІОЦ ЦСК</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/electronic_transportation/as_client_uz/" title="АС Клиент УЗ" class="level3"><span>АС Клиент УЗ</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/electronic_transportation/completion_of_the_document/" title="Порядок заповнення документа" class="level3"><span>Порядок заповнення документа</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/electronic_transportation/eds/" title="ЕЦП" class="level3"><span>ЕЦП</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/electronic_transportation/cost/" title="Розрахунок вартості" class="level3"><span>Розрахунок вартості</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/electronic_transportation/conventions/" title="Конвенції" class="level3"><span>Конвенції</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/electronic_transportation/rtp/" title="РТП" class="level3"><span>РТП</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/electronic_transportation/cargo/" title="Скарга-вантаж" class="level3"><span>Скарга-вантаж</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/electronic_transportation/navantag_all/" title="Графік навантаження" class="level3"><span>Графік навантаження</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/electronic_transportation/ssv/" title="Система слідкування за вагонами - ССВ" class="level3"><span>Система слідкування за вагонами - ССВ</span></a></li><li class="level3 last sub3"><a href="/cargo_transportation/electronic_transportation/specifications_carriages_info/" title="Технічні характеристики вагонів та обмеження навантаження за існуючими заборонами" class="level3"><span>Технічні характеристики вагонів та обмеження навантаження за існуючими заборонами</span></a></li></ul></li><li class="level2 sub2"><a href="/cargo_transportation/truck_renting/" title="Оренда вагонів" class="level2"><span>Оренда вагонів</span></a><ul class="level3"><li class="level3 first sub3"><a href="/cargo_transportation/truck_renting/legislation/" title="Нормативна база" class="level3"><span>Нормативна база</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/truck_renting/the_order_of_cars_for_rent/" title="Порядок надання вагонів в оренду" class="level3"><span>Порядок надання вагонів в оренду</span></a></li><li class="level3 last sub3"><a href="/cargo_transportation/truck_renting/approval_routes/" title="Узгодження маршрутів" class="level3"><span>Узгодження маршрутів</span></a></li></ul></li><li class="level2 sub2"><a href="/cargo_transportation/intermodal_transportation/" title="Інтермодальні перевезення" class="level2"><span>Інтермодальні перевезення</span></a><ul class="level3"><li class="level3 first sub3"><a href="/cargo_transportation/intermodal_transportation/container_and_piggyback/" title="Контейнерні та контрейлерні" class="level3"><span>Контейнерні та контрейлерні</span></a></li><li class="level3 last sub3"><a href="/cargo_transportation/intermodal_transportation/udcts_lisky/" title="УДЦТС &quot;Ліски&quot;" class="level3"><span>УДЦТС "Ліски"</span></a></li></ul></li><li class="level2 sub2"><a href="/cargo_transportation/work_in_public_places/" title="Робота на місцях загального користування" class="level2"><span>Робота на місцях загального користування</span></a><ul class="level3"><li class="level3 first sub3"><a href="/cargo_transportation/work_in_public_places/stations_and_services/" title="Станції та послуги" class="level3"><span>Станції та послуги</span></a></li><li class="level3 sub3"><a href="/cargo_transportation/work_in_public_places/estimated_cost_of_additional_services/" title="Орієнтовна вартість додаткових послуг" class="level3"><span>Орієнтовна вартість додаткових послуг</span></a></li><li class="level3 last sub3"><a href="/cargo_transportation/work_in_public_places/contacts/" title="Контакти" class="level3"><span>Контакти</span></a></li></ul></li><li class="level2"><a href="/cargo_transportation/operators/" title="Оператори" class="level2"><span>Оператори</span></a></li><li class="level2 sub2"><a href="/cargo_transportation/null_wag/" title="Наявність вільних порожніх вагонів" class="level2"><span>Наявність вільних порожніх вагонів</span></a></li><li class="level2 last sub2"><a href="/cargo_transportation/grain/" title="Інформація для вантажовідправників зернових вантажів" class="level2"><span>Інформація для вантажовідправників зернових вантажів</span></a></li></ul></li><li class="level1 sub1"><a href="/work_on_the_railway/" title="Робота на залізниці" class="level1"><span>Робота на залізниці</span></a><ul class="level2"><li class="level2 first"><a href="/work_on_the_railway/careers/" title="Вакансії" class="level2"><span>Вакансії</span></a></li><li class="level2"><a href="/work_on_the_railway/education_and_training/" title="Навчання та стажування" class="level2"><span>Навчання та стажування</span></a></li><li class="level2 sub2"><a href="/work_on_the_railway/bezpeka_praci/" title="Безпека праці" class="level2"><span>Безпека праці</span></a></li><li class="level2"><a href="/work_on_the_railway/our_leisure/" title="Наше дозвілля" class="level2"><span>Наше дозвілля</span></a></li><li class="level2 sub2"><a href="/work_on_the_railway/fk/" title="ФК «Експрес»" class="level2"><span>ФК «Експрес»</span></a></li><li class="level2 last"><a href="/work_on_the_railway/social_priorities/" title="Соціальні пріоритети" class="level2"><span>Соціальні пріоритети</span></a></li></ul></li><li class="level1 sub1"><a href="/press_center/" title="Прес-центр" class="level1"><span>Прес-центр</span></a><ul class="level2"><li class="level2 first sub2"><a href="/press_center/up_to_date_topic/" title="Актуальна тема" class="level2"><span>Актуальна тема</span></a></li><li class="level2 sub2"><a href="/press_center/latest_news/" title="Новини" class="level2"><span>Новини</span></a><ul class="level3"><li class="level3 first last sub3"><a href="/press_center/latest_news/archive/" title="Архів" class="level3"><span>Архів</span></a></li></ul></li><li class="level2 sub2"><a href="/press_center/ukrainian_railways_in_mass_media/" title="ЗМІ про Укрзалізницю" class="level2"><span>ЗМІ про Укрзалізницю</span></a></li><li class="level2 sub2"><a href="/press_center/photogallery/" title="Світлини" class="level2"><span>Світлини</span></a></li><li class="level2 sub2"><a href="/press_center/video_gallery/" title="Відеотека" class="level2"><span>Відеотека</span></a><ul class="level3"><li class="level3 first sub3"><a href="/press_center/video_gallery/ways_of_ukraine2/" title="Шляхами України" class="level3"><span>Шляхами України</span></a></li><li class="level3 sub3"><a href="/press_center/video_gallery/magistral/" title="Магістраль" class="level3"><span>Магістраль</span></a></li><li class="level3 last sub3"><a href="/press_center/video_gallery/primary_care/" title="Первинна медична допомога" class="level3"><span>Первинна медична допомога</span></a></li></ul></li><li class="level2 last sub2"><a href="/press_center/magistral_newspaper/" title="Газета «Магістраль»" class="level2"><span>Газета «Магістраль»</span></a></li></ul></li><li class="level1 last sub1"><a href="/contacts_feedback/" title="Контакти/Зворотний зв&#039;язок" class="level1"><span>Контакти/Зворотний зв'язок</span></a><ul class="level2"><li class="level2 first sub2"><a href="/contacts_feedback/contacts/" title="Контакти" class="level2"><span>Контакти</span></a></li><li class="level2 sub2"><a href="/contacts_feedback/ask_a_question/" title="Поставити  питання" class="level2"><span>Поставити  питання</span></a></li><li class="level2 sub2"><a href="/contacts_feedback/public_information/" title="Доступ до публічної інформації" class="level2"><span>Доступ до публічної інформації</span></a></li><li class="level2 sub2"><a href="/contacts_feedback/faq/" title="Відповіді на типові питання" class="level2"><span>Відповіді на типові питання</span></a></li><li class="level2 sub2"><a href="/contacts_feedback/reception_of_citizens/" title="Прийом громадян" class="level2"><span>Прийом громадян</span></a></li><li class="level2 last sub2"><a href="/contacts_feedback/questioning/" title="Анкетування" class="level2"><span>Анкетування</span></a></li></ul></li>							</ul>
+
+</div>
+
+<div id="content" class="content" role="main">
+<a class="printPage" href="#">Друк</a>
+<nav id="cpn-page-nav-bc" class="cpn-page-nav-bc"></nav>							<div id="cpn-uvaga" class="simpletext"><h1><span class="level2"><span>Розклад руху пасажирських поїздів</span></span></h1></div><div id="overlay">
+<a href="javascript:void(0)" class="close">Закрити</a>
+<div id="o-video"></div>
+<div id="o-title"></div>
+<div id="o-descr"></div>
+</div><div id="cpn-timetable" class="c-trains-by-number"><div class="caption">
+<h3 class="availability2">Інформація щодо маршруту</h3>
+<h3 class="availability2">від станції Дніпродзержинськ-Пас. (Україна) до станції Олександрія (Україна)</h3>
+<a style=" display:block; text-align:right; " href="/passengers/timetable/">До початку пошуку</a>
+</div> <!--  -->
+<!-- 22720-23380 -->
+<table>
+<thead>
+<tr>
+<th><a href="?from_station=22720&to_station=23380&time_from=0&time_to=24&select_time=0&by_route=1&ordrul=1">Номер поїзда</a></th>
+<th><a href="?from_station=22720&to_station=23380&time_from=0&time_to=24&select_time=0&by_route=1&ordrul=2">Маршрут</a></th>
+<th>Періодичність з початкової станції маршруту</th>
+<th>Станція вiдпр.</th>
+<th>Час приб.</th>
+<th><a href="?from_station=22720&to_station=23380&time_from=0&time_to=24&select_time=0&by_route=1&ordrul=6">Час вiдпр.</a></th>
+<th>Станція приб.</th>
+<th><a href="?from_station=22720&to_station=23380&time_from=0&time_to=24&select_time=0&by_route=1&ordrul=8">Час приб.</a></th>
+<th>Час вiдпр.</th>
+<!--<th>Вартість квітка</th>-->
+</tr>
+</thead>
+<tbody><tr style="background-color: #D9F0F8;">	<td><a href="?ntrain=54794&by_id=1" title="Інформація по номеру поїзда &quot;736&quot;">736  (&quot;ІНТЕРСІТІ+&quot;)</a></td>
+<td>Запоріжжя Київ</td> 			<td>11/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>01:06</td>
+<td>01:08</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>02:36</td>
+<td>02:37</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=736&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr style="background-color: #D9F0F8;">	<td><a href="?ntrain=54233&by_id=1" title="Інформація по номеру поїзда &quot;736&quot;">736  (&quot;ІНТЕРСІТІ+&quot;)</a></td>
+<td>Запоріжжя Київ</td> 			<td>з 6/11/2015 по п"ятницях,  неділях,  крім 11/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>01:06</td>
+<td>01:08</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>02:36</td>
+<td>02:37</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=736&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54699&by_id=1" title="Інформація по номеру поїзда &quot;84&quot;">84 </a></td>
+<td>Маріуполь Київ</td> 			<td> 25-29/10,  1-5, 8-12/11/2015 щоденно</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>04:56</td>
+<td>04:58</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>07:41</td>
+<td>07:43</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=84&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54803&by_id=1" title="Інформація по номеру поїзда &quot;84&quot;">84 </a></td>
+<td>Маріуполь Київ</td> 			<td>6, 7, 8, 9, 10, 11/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>04:56</td>
+<td>04:58</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>07:41</td>
+<td>07:43</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=84&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54316&by_id=1" title="Інформація по номеру поїзда &quot;84&quot;">84 </a></td>
+<td>Маріуполь Київ</td> 			<td>з 13/11/2015 щоденно,  крім 6, 7, 8, 9, 10, 11/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>04:56</td>
+<td>04:58</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>07:41</td>
+<td>07:43</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=84&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr style="background-color: #D9F0F8;">	<td><a href="?ntrain=54697&by_id=1" title="Інформація по номеру поїзда &quot;733&quot;">733  (&quot;ІНТЕРСІТІ+&quot;)</a></td>
+<td>Красноармійськ Київ</td> 			<td>26-30/10,  2-6, 9-13/11/2015 щоденно</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>07:46</td>
+<td>07:48</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>09:17</td>
+<td>09:18</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=733&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr style="background-color: #D9F0F8;">	<td><a href="?ntrain=54348&by_id=1" title="Інформація по номеру поїзда &quot;733&quot;">733  (&quot;ІНТЕРСІТІ+&quot;)</a></td>
+<td>Красноармійськ Київ</td> 			<td>25, 31/10/2015,  1, 7, 8/11/2015;   з 14/11/2015 щоденно</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>07:46</td>
+<td>07:48</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>09:17</td>
+<td>09:18</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=733&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54395&by_id=1" title="Інформація по номеру поїзда &quot;41&quot;">41 </a></td>
+<td>Дніпропетровськ Трускавець</td> 			<td> з 25/10/2015 щоденно,  крім 23/11/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>11:50</td>
+<td>11:52</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>14:49</td>
+<td>14:51</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=41&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54789&by_id=1" title="Інформація по номеру поїзда &quot;41&quot;">41 </a></td>
+<td>Дніпропетровськ Трускавець</td> 			<td>23/11/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>11:50</td>
+<td>11:52</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>14:49</td>
+<td>14:51</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=41&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr style="background-color: #D9F0F8;">	<td><a href="?ntrain=54264&by_id=1" title="Інформація по номеру поїзда &quot;732&quot;">732  (&quot;ІНТЕРСІТІ+&quot;)</a></td>
+<td>Запоріжжя Київ</td> 			<td> з 25/10/2015 щоденно,  крім 7, 8, 9, 10, 11, 12/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>17:46</td>
+<td>17:48</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>19:16</td>
+<td>19:17</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=732&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr style="background-color: #D9F0F8;">	<td><a href="?ntrain=54793&by_id=1" title="Інформація по номеру поїзда &quot;732&quot;">732  (&quot;ІНТЕРСІТІ+&quot;)</a></td>
+<td>Запоріжжя Київ</td> 			<td>7, 8, 9, 10, 11, 12/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>17:46</td>
+<td>17:48</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>19:16</td>
+<td>19:17</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=732&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54730&by_id=1" title="Інформація по номеру поїзда &quot;231&quot;">231 </a></td>
+<td>Дніпропетровськ Львів</td> 			<td>27/11/2015,  5, 11/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>18:12</td>
+<td>18:14</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>21:06</td>
+<td>21:08</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=231&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54271&by_id=1" title="Інформація по номеру поїзда &quot;70&quot;">70 </a></td>
+<td>Маріуполь Львів </td> 			<td> з 25/10/2015 щоденно,  крім 9-19/11,  7, 8, 9, 10, 11, 12/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>18:51</td>
+<td>18:53</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>21:45</td>
+<td>21:47</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=70&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54770&by_id=1" title="Інформація по номеру поїзда &quot;70&quot;">70 </a></td>
+<td>Маріуполь Львів </td> 			<td>9-19/11/2015 щоденно</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>18:51</td>
+<td>18:53</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>21:45</td>
+<td>21:47</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=70&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54798&by_id=1" title="Інформація по номеру поїзда &quot;70&quot;">70 </a></td>
+<td>Маріуполь Львів </td> 			<td>7, 8, 9, 10, 11, 12/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>18:51</td>
+<td>18:53</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>21:45</td>
+<td>21:47</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=70&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54805&by_id=1" title="Інформація по номеру поїзда &quot;88&quot;">88 </a></td>
+<td>Новоолексіївка Ковель</td> 			<td>8, 10, 12/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>19:01</td>
+<td>19:03</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>21:55</td>
+<td>21:57</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=88&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54370&by_id=1" title="Інформація по номеру поїзда &quot;88&quot;">88 </a></td>
+<td>Новоолексіївка Ковель</td> 			<td>з 2/11/2015 по парних (крім 8, 10, 12/12/2015),  при двох непарних 30, 2, 4</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>19:01</td>
+<td>19:03</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>21:55</td>
+<td>21:57</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=88&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54286&by_id=1" title="Інформація по номеру поїзда &quot;86&quot;">86 </a></td>
+<td>Новоолексіївка Львів</td> 			<td>з 2/11/2015 по парних (крім 8, 10, 12/12/2015),  при двох непарних 30, 2, 4</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>19:01</td>
+<td>19:03</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>21:55</td>
+<td>21:57</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=86&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54804&by_id=1" title="Інформація по номеру поїзда &quot;86&quot;">86 </a></td>
+<td>Новоолексіївка Львів</td> 			<td>8, 10, 12/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>19:01</td>
+<td>19:03</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>21:55</td>
+<td>21:57</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=86&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54302&by_id=1" title="Інформація по номеру поїзда &quot;63&quot;">63  (&quot;СКІФІЯ&quot;)</a></td>
+<td>Дніпропетровськ Одеса</td> 			<td>з 11/12/2015 по непарних,  при двох непарних 27, 29, 1, 3;    2/11-10/12/2015 щоденно,  крім 8, 9/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>20:00</td>
+<td>20:02</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>22:47</td>
+<td>22:49</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=63&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54782&by_id=1" title="Інформація по номеру поїзда &quot;63&quot;">63  (&quot;СКІФІЯ&quot;)</a></td>
+<td>Дніпропетровськ Одеса</td> 			<td>8, 9/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>20:00</td>
+<td>20:02</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>22:47</td>
+<td>22:49</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=63&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54736&by_id=1" title="Інформація по номеру поїзда &quot;92&quot;">92 </a></td>
+<td>Костянтинівка Одеса</td> 			<td>2/11-12/12/2015 щоденно,  крім 8, 9/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>21:29</td>
+<td>21:31</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>00:41</td>
+<td>00:43</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=92&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54785&by_id=1" title="Інформація по номеру поїзда &quot;92&quot;">92 </a></td>
+<td>Костянтинівка Одеса</td> 			<td>8, 9/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>21:29</td>
+<td>21:31</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>00:41</td>
+<td>00:43</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=92&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54288&by_id=1" title="Інформація по номеру поїзда &quot;72&quot;">72  (&quot;ЗАПОРІЖЖЯ&quot;)</a></td>
+<td>Запоріжжя Київ</td> 			<td> з 25/10/2015 щоденно,  крім 7, 8, 9, 10, 11, 12/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>22:20</td>
+<td>22:22</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>01:01</td>
+<td>01:03</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=72&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54799&by_id=1" title="Інформація по номеру поїзда &quot;72&quot;">72  (&quot;ЗАПОРІЖЖЯ&quot;)</a></td>
+<td>Запоріжжя Київ</td> 			<td>7, 8, 9, 10, 11, 12/12/2015</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>22:20</td>
+<td>22:22</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>01:01</td>
+<td>01:03</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=72&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr><tr>	<td><a href="?ntrain=54214&by_id=1" title="Інформація по номеру поїзда &quot;79&quot;">79  (&quot; ДНІПРО &quot;)</a></td>
+<td>Дніпропетровськ Київ</td> 			<td> з 25/10/2015 щоденно</td>
+<td><a href="?station=22720&by_station=1" title="Інформація по станції &quot;Дніпродзержинськ-Пас.&quot;">Дніпродзержинськ-Пас.</a></td>
+<td>23:06</td>
+<td>23:08</td>
+<td><a href="?station=23380&by_station=1" title="Інформація по станції &quot;Олександрія&quot;">Олександрія</a></td>
+<td>01:40</td>
+<td>01:42</td>
+<!--<td><input type="button" onclick="$('#informationPriceBody').load('/passengers/timetables/?price=79&trf_st=22720&trt_st=23380')" title="Вартість квітка" value="Вартість" /></td>-->
+</tr></tbody></table><br><center><b><a href="?from_station=23380&to_station=22720&by_route=1">Розклад у зворотньому напрямку</a></br>
+<a href="http://www.uz.gov.ua/route_2/index.php?start_st=22720&fin_st=23380&fs=Дніпродзержинськ-Пас.%20(Україна)&ts=Олександрія%20(Україна)" target="_blank" >
+Пошук проїзду з однією пересадкою</a></b></br></center>
+<div class="clearer"></div><div name="informationPrice" id="informationPrice"><div id="informationPriceHeader"><!--<h3 class="availability2">Вартість квітка</h3>--></div><div id="informationPriceBody"></div></div></div>
+</div>
+</div>			</div></div>
+
+<div id="sidebar" role="complementary">
+<div id="e-kvytok-place" style="position:relative; z-index:0; "></div>
+<!--<div style="height:170px; width: 194px; background-color:#74a7c4; margin-top: -45px;"></div>--><b style="text-transform: uppercase;font-size:16px;color:red;"></br>Привітання з</br> Днем залізничника</b><script id="cpn-sidebar-video-new-video-tpl" type="text/tpl">
+<h2 class="speak-only" tabindex="0">Video Player</h2>
+<video id="video-player" class="video-js vjs-default-skin" controls preload="none" width="740" height="480"
+poster="/files/video-main/{id}-{thumb}p.jpg">
+<source src="/files/video-main/{id}.mp4" type="video/mp4">
+<source src="/files/video-main/{id}.webm" type="video/webm">
+</video>
+</script><section id="cpn-sidebar-video-new" class="catalog-list"><div id="cpn-sidebar-video-new-content" class="catalog-list-content"><div id="video-box-single" class="video-box single"></div><div class="block">
+
+<a class="image" href="#video-box-single" rel="gallery" data-id="413513" data-thumb="4" data-orig="413513-orig.mov">
+<img src="/files/video-main/413513-4.jpg" title="Привітання з Днем залізничника" alt=""/>
+<span class="action"></span>
+</a>
+
+</div></div></section><div style="z-index:0;"><a href="http://www.uz.gov.ua/press_center/zsu_body/" target="_blank">
+<img src="/files/image/media/ZSU_logo.png"></a></div>
+<br><div id="cpn-avtomobylevoz" class="simpletext"><div class="quiz-area" style="padding-bottom: 0px;"><a href="/passengers/station_services_and_facilities/services_in_trains/avto_train/" style="text-decoration: none; margin: 0px;">
+<h2 style="text-decoration: none; text-align: center; margin: 0px;"><span style="text-decoration: none;">Подорожуй поїздом з власним авто!</span> <img style="display: block; margin-left: auto; margin-right: auto;" src="/files/image/for_passengers/avto_train2.png" alt="" width="160" height="106" /></h2>
+</a></div></div><br><br>
+<a href="/files/image/for_passengers/Uz_map_big.png" target="_blank">
+<img src="/files/image/for_passengers/Uz_map_logo.png" alt="СХЕМА ЗАЛІЗНИЦЬ УКРАЇНИ" border="0" style="border:none;" title="СХЕМА ЗАЛІЗНИЦЬ УКРАЇНИ" /></a>			</div>
+
+</div>
+
+<!-- footer -->
+<div id="footer"><section id="cpn-footer-banner" class="cpn-sections"><div class="blocks"><div id="cpn-footer-banner-414243" class="block first"><div class="desc"><div class="text"><div class="quiz-area" style="padding-bottom: 0px; height: 255px; width: 159px;">
+<h2 style="text-decoration: none; text-align: center; margin: 0px; line-height: normal;">За інформацію, яка оприлюднюється на сайті <em style="color: black;"> www.railway.dn.ua</em> та отримується з поштового сервера <strong><em style="color: black;">@railway.dn.ua</em> </strong></h2>
+<h2 style="text-decoration: none; text-align: center; margin: 0px; line-height: normal;"><strong><br /></strong></h2>
+<h2 style="text-decoration: none; text-align: center; margin: 0px; line-height: normal;"><strong>Укрзалізниця відповідальності не несе<strong> </strong></strong></h2>
+</div></div></div><div class="clearer"></div></div><div id="cpn-footer-banner-414263" class="block"><a href="https://www.uz.gov.ua/passengers/hotline/service/" title="" class="link" target="_blank"><img class="image" src="/files/footer-banner/414263.jpg" width="160" height="226" alt="" /><div class="desc"></div><div class="clearer"></div></a></div><div id="cpn-footer-banner-414273" class="block"><a href="https://www.uz.gov.ua/passengers/hotline/stop_corruption/" title="" class="link" target="_blank"><img class="image" src="/files/footer-banner/414273.jpg" width="160" height="226" alt="" /><div class="desc"></div><div class="clearer"></div></a></div><div id="cpn-footer-banner-414253" class="block last"><div class="desc"><div class="text"><div style="padding-bottom: 0px;" class="quiz-area">
+<h2 style="line-height: normal; text-transform: uppercase; text-align: center; margin: 0px;"><br /><strong style="color: black;">ПАТ &laquo;Укрзалізниця&raquo;</strong></h2>
+<h2 style="line-height: normal; text-transform: uppercase; text-align: center; margin: 0px;">&nbsp;</h2>
+<h2 style="line-height: normal; text-transform: uppercase; text-align: center; margin: 0px;">оголошує конкурси на посади<strong style="color: black;"> </strong></h2>
+<h2 style="line-height: normal; text-transform: uppercase; text-align: center; margin: 0px;"><strong style="color: black;">восьми директорів</strong></h2>
+</div></div></div><div class="clearer"></div></div></div></section><section id="cpn-social" class="cpn-sections"><div class="cpn-sections-caption">
+<h2 class="speak-only">Укрзалізниця у соціальних мережах</h2></div><div class="blocks"><div id="cpn-social-260903" class="block first facebook"><a href="http://www.facebook.com/uz.gov.ua" title="" class="link" target="_blank"><img class="image" src="/files/socials/260903.png" width="27" height="27" alt="" /><div class="desc"><div class="text"><p>Спілкуйтесь з нами на Фейсбуці</p></div></div><div class="clearer"></div></a></div><div id="cpn-social-260933" class="block youtube"><a href="http://www.youtube.com/user/Ukrzaliznytsya?feature=watch" title="" class="link" target="_blank"><img class="image" src="/files/socials/260933.png" width="27" height="27" alt="" /><div class="desc"><div class="text"><p>Є що подивитися на Youtube</p></div></div><div class="clearer"></div></a></div><div id="cpn-social-260961" class="block twitter"><a href="https://twitter.com/#!/uz_gov_ua" title="" class="link" target="_blank"><img class="image" src="/files/socials/260961.png" width="27" height="27" alt="" /><div class="desc"><div class="text"><p>Стежте за нами у Твітері</p></div></div><div class="clearer"></div></a></div><div id="cpn-social-394614" class="block last"><a href="/files/file/certificate.jpg" title="Дивитися сертифікат" class="link"><img class="image" src="/files/socials/394614.png" width="27" height="20" alt="Дивитися сертифікат" /><div class="desc"><div class="text"><p><span style="color: #888888;"><a href="/files/file/certificate.jpg" title="Дивитися сертифікат" style="text-decoration: none;"><span style="color: #888888;">Сайт адаптовано для людей з глибокими вадами зору</span></a></span></p></div></div><div class="clearer"></div></a></div></div>		</section><div id="cpn-footer-copyright" class="simpletext"><table style="width: 163px; border-color: #ffffff; border-width: 0px; border-style: solid;" border="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td style="padding: 0px; border-color: #ffffff; border-style: solid; border-width: 0px;" valign="top">
+<p><span style="color: #888888;"><span style="color: #888888;"><br /></span></span></p>
+</td>
+<td style="padding: 0px; border-color: #ffffff; border-style: solid; border-width: 0px;" valign="top"></td>
+</tr>
+<tr>
+<td style="padding: 0px; border-color: #ffffff; border-style: solid; border-width: 0px;" colspan="2" valign="top"><span style="color: #888888;"><a href="http://www.uz.gov.ua/files/file/certificate.jpg" title="Дивитися сертифікат" style="text-decoration: none;"><span style="color: #888888;">2012 &copy; Всі права захищені</span></a></span></td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-28614693-1']);
+_gaq.push(['_setDomainName', 'none']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<script type="text/javascript">head.js("/lib/jquery.1324465560.js"); head.js("/lib/jquery.tools.1324465620.js"); head.js("/lib/jquery.sbx.1412757740.js"); head.js("/lib/jquery.main.1410354982.js"); head.js("/lib/drop-down2.1410269167.js"); head.js("/lib/jstorage.1394190690.js"); head.js("/lib/jquery.cycle.lite.1326881220.js"); head.js("/lib/jquery.fancybox.pack.1403687168.js"); head.js("/lib/video.1408707752.js");head.ready(function(){window.avail2.init("uk");});head.ready(function(){jQuery(function($) {$("#cpn-top-image .scrollable .items").cycle();
+});});head.ready(function(){
+jQuery(function() { initPlayer(".catalog-list-content a"); });
+});head.ready(function(){
+setTimeout(function(){
+var f = $.jStorage.get("avail-font", "1") - 1, h = [450, 470, 490][f], w = [194, 194, 220][f];
+$("<iframe/>", {
+src: "http://booking.uz.gov.ua/widget/"
+, width: w
+, scrolling: "no"
+, marginwidth: "0"
+, marginheight: "0"
+, frameborder: "no"
+, allowTransparency: "true"
+, style: "height:" + h + "px; width:" + w + "px; margin-bottom:-170px; z-index:1"})
+.appendTo($("#e-kvytok-place"))
+.on("load", window.avail2.pokeIframe);
+}, 2000);
+
+var actionIframe = function(e) { $('#e-kvytok-place').css('z-index', ~~(e.data == 'expand')) }
+
+if (window.addEventListener)
+window.addEventListener("message", actionIframe, false);
+else
+window.attachEvent('onmessage', actionIframe);
+
+});head.ready(function(){
+
+
+function tpl(s, data) {	for (var i in data) if (data.hasOwnProperty(i))	s = s.split("{" + i + "}").join(data[i]); return s; }
+
+videojs.options.flash.swf = "/lib/video-js.swf";
+
+
+videojs.options.language = 'uk';
+videojs.options.languages['uk'] = {
+"Play": "Грати",
+"Pause": "Зупинити",
+"Current Time": "Зараз",
+"Duration Time": "Тривалість",
+"Remaining Time": "Залишилось",
+"Stream Type": "Тип трансляції",
+"LIVE": "Наживо",
+"Loaded": "Завантажено",
+"Progress": "Прогрес",
+"Fullscreen": "На весь екран",
+"Non-Fullscreen": "У вікні",
+"Mute": "Вимкнути звук",
+"Unmuted": "Увімкнути звук",
+"Playback Rate": "Швидкість програвання",
+"Subtitles": "Субтитри",
+"subtitles off": "субтитри вимкнено",
+"Captions": "Заголовки",
+"captions off": "заголовки вимкнено",
+"Chapters": "Розділи",
+"You aborted the video playback": "Програвання зупинено",
+"A network error caused the video download to fail part-way.": "Завантаження відео зупинено через негаразди у мережі.",
+"The video could not be loaded, either because the server or network failed or because the format is not supported.": "Відео не може бути завантажено через негаразди у мережі або незрозумілий формат.",
+"The video playback was aborted due to a corruption problem or because the video used features your browser did not support.": "Програвання зупинено через пошкодження файлу або використання ним функцій, які не підтримуються браузером.",
+"No compatible source was found for this video.": "Не знайдено зрозумілого формату для цього відео."
+}
+
+
+videojs.btSave = videojs.Button.extend({
+init: function(player, options){videojs.Button.call(this, player, options);}
+});
+
+var createSaveButton = function(p, o) {
+var props = {
+className: 'vjs-save-button vjs-control',
+innerHTML: '<a class="vjs-control-content" href="' + p + o + '" title="Завантажити відео високої якості"><span class="vjs-control-text">' + ('Save') + '</span></a>',
+role: 'button',
+'aria-live': 'polite', // let the screen reader user know that the text of the button may change
+tabIndex: 0
+};
+return videojs.Component.prototype.createEl(null, props);
+};
+
+var save;
+videojs.plugin('save', function(options) {
+if (options["orig"]) {
+save = new videojs.btSave(this, {'el' : createSaveButton(options["path"], options["orig"])});
+this.controlBar.el().appendChild(save.el());
+}
+});
+
+$("#cpn-sidebar-video-new .block a").fancybox({type: "inline", showNavArrows: false, titlePosition: 'over', titleFormat: function(title, arr, ind, opts) {
+var i = $(arr[ind]).find("img");
+var title = ~~1 && i.attr("title"), descr = ~~1 && i.attr("alt");
+return (title || descr) ? '<hgroup><h3 class="title">' + i.attr("title") + '</h3><section class="descr">' + i.attr("alt") + '</section></hgroup>' : '';
+}, onStart: function(el, index) {
+log("onstart");
+var trigger = el.eq(index), id = trigger.data("id"), path = "/files/video-main/", orig = trigger.data("orig");
+
+if ($("#video-player").length)
+videojs("video-player").dispose();
+
+$("#video-box-single").html(tpl($("#cpn-sidebar-video-new-video-tpl").text(), {id: id, thumb: trigger.data("thumb")})).data("id", id).show();
+videojs("video-player", {plugins: {save: {path: path, orig: orig}}}, function(){
+var p = this;
+setTimeout(function(){
+p.play();
+//log($("#fancybox-close"));
+$("#video-player_html5_api").focus();
+//			$("#video-box-single h2").focus();
+}, 500);
+});
+}, onClosed: function(el, index) {
+videojs("video-player").dispose();
+$("#video-box-single").html("").hide();
+$('#cpn-sidebar-video-new-content').find('a[data-id="' + $("#video-box-single").data("id") + '"]').focus();
+}});
+
+});</script></body></html>

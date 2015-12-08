@@ -5,14 +5,16 @@
 
     <bean id="stationService" class="ua.twotwo.service.impl.StationServiceImpl"/>
     <bean id="saverStationService" class="ua.twotwo.service.impl.SaverStationServiceImpl"/>
+    <bean id="trainAvailability" class="ua.twotwo.service.impl.TrainAvailabilityServiceImpl"/>
+    <bean id="trainSchedule" class="ua.twotwo.service.impl.TrainScheduleServiceImpl"/>
 
     <bean id="restClient" class="ua.twotwo.client.RestClient"/>
 
     <bean id="restTemplate" class="org.springframework.web.client.RestTemplate">
         <property name="messageConverters">
             <list>
-                <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
                 <bean class="org.springframework.http.converter.StringHttpMessageConverter"/>
+                <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
             </list>
         </property>
     </bean>
